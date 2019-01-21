@@ -6,11 +6,15 @@
 
 
 
+
+
 ## 今日面试题
 
 2019-01-22 
 
 > `['1', '2', '3'].map(parseInt)` what & why ?
+
+
 
 
 
@@ -22,9 +26,13 @@
 
 
 
+
+
 ## 历史汇总
 
--   [前端面试题汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/datum/summary.md)
+-   [前端面试题汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
+
+
 
 
 
