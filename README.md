@@ -2,21 +2,31 @@
 
 工作日每天一道前端大厂面试题，祝大家天天进步，一年后会看到不一样的自己。
 
+欢迎 PR 你认为不错的面试题，共同参与这个伟大的项目。
+
+
+
 ## 今日面试题
 
-2019-01-22 题目
+2019-01-22 
 
-> `[1,2,3].map(parseInt)` what & why ?
+> `['1', '2', '3'].map(parseInt)` what & why ?
+
+
 
 ## 本周汇总
 
-2019-01-21 题目
+2019-01-21
 
 > 写 React / Vue 项目时为什么要在组件中写 key，其作用是什么？
 
+
+
 ## 历史汇总
 
--   [前端面试题汇总](#)
+-   [前端面试题汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/datum/summary.md)
+
+
 
 ## 加入
 
