@@ -65,7 +65,7 @@ console.log('script end');
 
 ### 第 5 期：介绍下深度优先遍历和广度优先遍历，如何实现？
 
-欢迎在 Issue 区留下你的答案。
+解析：[关于第五题我的一些见解](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/9)
 
 
 
