@@ -14,6 +14,10 @@
 
 > 第14题：福利题，如何实现一个 new
 
+解析：[14题 情人节快乐！](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/12)
+
+
+
 > 第13题：Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？
 
 欢迎在 Issue 区留下你的答案。
@@ -52,4 +56,4 @@
 
 我是木易杨，网易高级前端工程师，跟着我**每周重点攻克一个前端面试重难点**。接下来让我带你走进高级前端的世界，在进阶的路上，共勉！
 
-如果你想加群讨论每期面试知识点，公众号回复**「加群」**即可 ![image](https://github.com/yygmind/blog/raw/master/images/weixin_re.png)
+如果你想加群讨论每期面试知识点，公众号回复「 [加群]() 」即可 ![image](https://github.com/yygmind/blog/raw/master/images/weixin_re.png)
