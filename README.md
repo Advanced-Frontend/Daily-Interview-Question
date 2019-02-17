@@ -7,24 +7,24 @@
 
 
 ## 今日面试题
+2019-02-16
 
-2019-02-14
-
-大家情人节快乐。
-
-> 第14题：福利题，如何实现一个 new
-
-解析：[14题 情人节快乐！](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/12)
-
-
-
-> 第13题：Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？
+> 第15题：简单讲解一下http2的多路复用
 
 欢迎在 Issue 区留下你的答案。
 
 
-
 ## 本周汇总
+2019-02-14
+
+
+> 第14题：情人节福利题，如何实现一个 new
+
+解析：[14题 情人节快乐！](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/12)
+
+
+> 第13题：Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？
+
 
 2019-02-13
 
