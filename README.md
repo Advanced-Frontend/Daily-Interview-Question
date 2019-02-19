@@ -34,6 +34,10 @@
 
 ## 交流
 
+进阶系列文章汇总如下，内有优质前端资料，觉得不错点个star。
+
+> [https://github.com/yygmind/blog](https://github.com/yygmind/blog)
+
 我是木易杨，网易高级前端工程师，跟着我**每周重点攻克一个前端面试重难点**。接下来让我带你走进高级前端的世界，在进阶的路上，共勉！
 
 如果你想加群讨论每期面试知识点，公众号回复「 [加群]() 」即可 ![image](https://github.com/yygmind/blog/raw/master/images/weixin_re.png)
