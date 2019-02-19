@@ -7,31 +7,32 @@
 
 
 ## 今日面试题
-2019-02-18
 
-> 第15题：简单讲解一下http2的多路复用
+2019-02-19
+
+> 第16题：谈谈你对TCP三次握手和四次挥手的理解
 
 欢迎在 Issue 区留下你的答案。
 
 
 
-
 ## 本周汇总
 
+2019-02-18
+
+> 第15题：简单讲解一下http2的多路复用
+
+解析：[第15题：简单讲解一下http2的多路复用](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/14)
 
 
 
 ## 历史汇总
 
-* [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
+- [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
 
 
 
 ## 交流
-
-进阶系列文章汇总如下，内有优质前端资料，觉得不错点个star。
-
-> [https://github.com/yygmind/blog](https://github.com/yygmind/blog)
 
 我是木易杨，网易高级前端工程师，跟着我**每周重点攻克一个前端面试重难点**。接下来让我带你走进高级前端的世界，在进阶的路上，共勉！
 
