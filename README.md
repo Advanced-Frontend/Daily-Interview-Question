@@ -8,15 +8,54 @@
 
 ## 今日面试题
 
-2019-02-21
+2019-02-22
 
-> 第18题：React 中 setState 什么时候是同步的，什么时候是异步的？
+> 第19题：笔试题，下面的代码输出什么？
+
+```js
+class Example extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      val: 0
+    };
+  }
+  
+  componentDidMount() {
+    this.setState({val: this.state.val + 1});
+    console.log(this.state.val);    // 第 1 次 log
+
+    this.setState({val: this.state.val + 1});
+    console.log(this.state.val);    // 第 2 次 log
+
+    setTimeout(() => {
+      this.setState({val: this.state.val + 1});
+      console.log(this.state.val);  // 第 3 次 log
+
+      this.setState({val: this.state.val + 1});
+      console.log(this.state.val);  // 第 4 次 log
+    }, 0);
+  }
+
+  render() {
+    return null;
+  }
+};
+```
 
 欢迎在 Issue 区留下你的答案。
 
 
 
 ## 本周汇总
+
+2019-02-21
+
+> 第18题：React 中 setState 什么时候是同步的，什么时候是异步的？
+
+解析：[第18题：React 中 setState 什么时候是同步的，什么时候是异步的？](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/17)
+
+
 
 2019-02-20
 
