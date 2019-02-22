@@ -43,7 +43,7 @@ class Example extends React.Component {
 };
 ```
 
-欢迎在 Issue 区留下你的答案。
+解析：[关于第19题的见解](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/18)
 
 
 

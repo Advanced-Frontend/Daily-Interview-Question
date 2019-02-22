@@ -66,7 +66,7 @@
 
 ### 第 7 期：ES5/ES6 的继承除了写法以外还有什么区别？
 
-欢迎在 Issue 区留下你的答案。
+解析：[第 7 期：ES5/ES6 的继承除了写法以外还有什么区别？解答与一个疑惑](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/20)
 
 
 
@@ -132,6 +132,8 @@ console.log('script end');
 
 
 ### 第13题：Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？
+
+解析：[关于第13题的见解](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/19)
 
 
 
