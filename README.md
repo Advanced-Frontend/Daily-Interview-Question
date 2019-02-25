@@ -8,76 +8,15 @@
 
 ## 今日面试题
 
-2019-02-22
+ 2019-02-25
 
-> 第19题：笔试题，下面的代码输出什么？
-
-```js
-class Example extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      val: 0
-    };
-  }
-  
-  componentDidMount() {
-    this.setState({val: this.state.val + 1});
-    console.log(this.state.val);    // 第 1 次 log
-
-    this.setState({val: this.state.val + 1});
-    console.log(this.state.val);    // 第 2 次 log
-
-    setTimeout(() => {
-      this.setState({val: this.state.val + 1});
-      console.log(this.state.val);  // 第 3 次 log
-
-      this.setState({val: this.state.val + 1});
-      console.log(this.state.val);  // 第 4 次 log
-    }, 0);
-  }
-
-  render() {
-    return null;
-  }
-};
-```
-
-解析：[关于第19题的见解](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/18)
-
-
-
-## 本周汇总
-
-2019-02-21
-
-> 第18题：React 中 setState 什么时候是同步的，什么时候是异步的？
-
-解析：[第18题：React 中 setState 什么时候是同步的，什么时候是异步的？](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/17)
-
-
-
-2019-02-20
-
-> 第17题：如果A 与 B 建立了正常连接后，从未相互发过数据，这个时候 B 突然机器重启，问 A 此时处于 TCP 什么状态？如何消除服务器程序中的这个状态？（超纲题，了解即可）
+> 第20题：介绍下 npm install 的实现原理
 
 欢迎在 Issue 区留下你的答案。
 
 
 
-2019-02-19
-
-> 第16题：谈谈你对TCP三次握手和四次挥手的理解
-
-解析：[关于第16题的见解](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/15)
-
-
-
-2019-02-18
-
-> 第15题：简单讲解一下http2的多路复用
-
-解析：[第15题：简单讲解一下http2的多路复用](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/14)
+## 本周汇总
 
 
 
