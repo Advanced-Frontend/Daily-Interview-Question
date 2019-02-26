@@ -8,17 +8,25 @@
 
 ## 今日面试题
 
- 2019-02-26
+ 2019-02-27
 
-> 第21题：有以下 3 个判断数组的方法，请分别介绍它们之间的区别和优劣
->
-> Object.prototype.toString.call() 、 instanceof 以及 Array.isArray() 
+> 第22题：介绍下重绘和回流（Repaint & Reflow），以及如何进行优化
 
 欢迎在 Issue 区留下你的答案。
 
 
 
 ## 本周汇总
+
+2019-02-26
+
+> 第21题：有以下 3 个判断数组的方法，请分别介绍它们之间的区别和优劣
+>
+> Object.prototype.toString.call() 、 instanceof 以及 Array.isArray() 
+
+解析：[第21题：介绍它们之间的区别和优劣](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/23)
+
+
 
 2019-02-25
 
