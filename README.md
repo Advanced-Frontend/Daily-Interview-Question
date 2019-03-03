@@ -10,7 +10,7 @@
 
 2019-03-04
 
-> 第25题：说说 JavaScript 事件循环和 Node 事件循环的区别
+> 第 25 题：说说 JavaScript 事件循环和 Node 事件循环的区别
 
 解析：[JavaScript 事件循环和Node 事件循环的区别](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/26)
 
