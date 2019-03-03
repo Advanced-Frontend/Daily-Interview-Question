@@ -209,3 +209,35 @@ class Example extends React.Component {
 
 解析：[关于第19题的见解](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/18)
 
+
+
+### 第 20 题：介绍下 npm 模块安装机制，为什么输入 npm install 就可以自动安装对应的模块？
+
+解析：[第20题：介绍下 npm 模块安装机制，为什么输入 npm install 就可以自动安装对应的模块？](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/22)
+
+
+
+### 第 21 题：有以下 3 个判断数组的方法，请分别介绍它们之间的区别和优劣
+
+> Object.prototype.toString.call() 、 instanceof 以及 Array.isArray() 
+
+解析：[第21题：介绍它们之间的区别和优劣](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/23)
+
+
+
+### 第 22 题：介绍下重绘和回流（Repaint & Reflow），以及如何进行优化
+
+解析：[第22题：介绍下重绘和回流（Repaint & Reflow），以及如何进行优化](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/24)
+
+
+
+### 第 23 题：介绍下观察者模式和订阅-发布模式的区别，各自适用于什么场景
+
+解析：[第 23 题：介绍下观察者模式和订阅\-发布模式的区别，各自适用于什么场景](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/25)
+
+
+
+### 第24题：聊聊 Redux 和 Vuex 的设计思想
+
+欢迎在 Issue 区留下你的答案。
+
