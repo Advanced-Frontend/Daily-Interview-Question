@@ -8,15 +8,23 @@
 
 ## 今日面试题
 
-2019-03-05
+2019-03-06
 
-> 第 26 题：介绍模块化发展历程，可从IIFE、AMD、CMD、CommonJS、UMD、webpack(require.ensure)、ES Module、<script type="module"> 这几个角度考虑
+> 第 27 题：全局作用域中，用 const 和 let 声明的变量不在 window 上，那到底在哪里？如何去获取？。
 
 欢迎在 Issue 区留下你的答案。
 
 
 
 ## 本周汇总
+
+2019-03-05
+
+> 第 26 题：介绍模块化发展历程，可从IIFE、AMD、CMD、CommonJS、UMD、webpack(require.ensure)、ES Module、<script type="module"> 这几个角度考虑
+
+解析：[第26 题: 前端中的模块化开发](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/28)
+
+
 
 2019-03-04
 
