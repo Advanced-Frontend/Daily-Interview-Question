@@ -8,15 +8,23 @@
 
 ## 今日面试题
 
-2019-03-06
+2019-03-07
 
-> 第 27 题：全局作用域中，用 const 和 let 声明的变量不在 window 上，那到底在哪里？如何去获取？。
+> 第 28 题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？
 
 欢迎在 Issue 区留下你的答案。
 
 
 
 ## 本周汇总
+
+2019-03-06
+
+> 第 27 题：全局作用域中，用 const 和 let 声明的变量不在 window 上，那到底在哪里？如何去获取？。
+
+解析：[第27题：关于 const 和 let 声明的变量不在 window 上](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/30)
+
+
 
 2019-03-05
 
