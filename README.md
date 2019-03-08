@@ -8,15 +8,23 @@
 
 ## 今日面试题
 
-2019-03-07
+2019-03-08
 
-> 第 28 题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？
+> 第 29 题：聊聊 Vue 的双向数据绑定，Model 如何改变 View，View 又是如何改变 Model 的
 
 欢迎在 Issue 区留下你的答案。
 
 
 
 ## 本周汇总
+
+2019-03-07
+
+> 第 28 题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？
+
+解析：[第28题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/31)
+
+
 
 2019-03-06
 
