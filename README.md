@@ -4,13 +4,19 @@
 
 欢迎 PR 你认为不错的面试题，欢迎在 Issue 区留下你的答案，共同参与这个伟大的项目。
 
-
-
 ## 今日面试题
 
-2019-03-11
+2019-03-12
 
-> 第 30 题：请把两个数组 [A1, A2, B1, B2, C1, C2, D1, D2] 和 [A, B, C, D]，合并为 [A1, A2, A, B1, B2, B, C1, C2, C, D1, D2, D]，这里的 A1、A2、A 等代指任意元素。
+> 第 31 题：改造下面的代码，使之输出0 - 9，写出你能想到的所有解法。
+
+```js
+for (var i = 0; i< 10; i++){
+	setTimeout(() => {
+		console.log(i);
+    }, 1000)
+}
+```
 
 欢迎在 Issue 区留下你的答案。
 
@@ -18,17 +24,23 @@
 
 ## 本周汇总
 
+2019-03-11
+
+> 第 30 题：请把两个数组 ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'D1', 'D2'] 和 ['A', 'B', 'C', 'D']，合并为 ['A1', 'A2', 'A', 'B1', 'B2', 'B', 'C1', 'C2', 'C', 'D1', 'D2', 'D']。
+
+解析： [第 30 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/39)
+
 
 
 ## 历史汇总
 
-- [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
+-   [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
 
 
 
 ## 交流
 
-进阶系列文章汇总如下，内有优质前端资料，觉得不错点个star。
+进阶系列文章汇总如下，内有优质前端资料，觉得不错点个 star。
 
 > [https://github.com/yygmind/blog](https://github.com/yygmind/blog)
 
