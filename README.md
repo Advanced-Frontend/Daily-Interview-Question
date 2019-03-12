@@ -14,7 +14,7 @@
 var b = 10;
 (function b(){
     b = 20;
-    console.log(b); // [Function: b] 打印出来是函数 b 
+    console.log(b); // [Function: b] 打印出来是函数 b ，不是20
 })();
 ```
 
