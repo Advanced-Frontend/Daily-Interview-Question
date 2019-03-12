@@ -91,9 +91,13 @@
 
 
 
+
+
 ### 第 9 期：Async/Await 如何通过同步的方式实现异步
 
 欢迎在 Issue 区留下你的答案。
+
+
 
 
 
@@ -128,6 +132,8 @@ console.log('script end');
 
 
 
+
+
 ### 第 11 题：算法手写题
 
 > 已知如下数组：
@@ -140,9 +146,13 @@ console.log('script end');
 
 
 
+
+
 ### 第 12 题：JS 异步解决方案的发展历程以及优缺点。
 
 解析：[第十二题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/11)
+
+
 
 
 
@@ -178,9 +188,13 @@ console.log('script end');
 
 
 
+
+
 ### 第 18 题：React 中 setState 什么时候是同步的，什么时候是异步的？
 
 解析：[第18题：React 中 setState 什么时候是同步的，什么时候是异步的？](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/17)
+
+
 
 
 
@@ -227,11 +241,15 @@ class Example extends React.Component {
 
 
 
+
+
 ### 第 21 题：有以下 3 个判断数组的方法，请分别介绍它们之间的区别和优劣
 
 > Object.prototype.toString.call() 、 instanceof 以及 Array.isArray() 
 
 解析：[第21题：介绍它们之间的区别和优劣](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/23)
+
+
 
 
 
@@ -241,15 +259,21 @@ class Example extends React.Component {
 
 
 
+
+
 ### 第 23 题：介绍下观察者模式和订阅-发布模式的区别，各自适用于什么场景
 
 解析：[第 23 题：介绍下观察者模式和订阅\-发布模式的区别，各自适用于什么场景](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/25)
 
 
 
+
+
 ### 第 24 题：聊聊 Redux 和 Vuex 的设计思想
 
-欢迎在 Issue 区留下你的答案。
+解析：[第 24 题：聊聊 Redux 和 Vuex 的设计思想](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/45)
+
+
 
 
 
@@ -259,11 +283,15 @@ class Example extends React.Component {
 
  
 
+
+
 ### 第 26 题：介绍模块化发展历程
 
 可从IIFE、AMD、CMD、CommonJS、UMD、webpack(require.ensure)、ES Module、`<script type="module">` 这几个角度考虑。
 
 解析：[第26 题: 前端中的模块化开发](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/28)
+
+
 
 
 
@@ -273,9 +301,13 @@ class Example extends React.Component {
 
 
 
+
+
 ### 第 28 题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？
 
 解析：[第28题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/31)
+
+
 
 
 
