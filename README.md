@@ -10,6 +10,15 @@
 
 2019-03-14
 
+> 第 34 题：对于浏览器缓存:有的是存在硬盘中(from disk),有的是存在内存中(from memory),这个依据是什么？具体可以在浏览器控制台`Network`选项卡中查看请求
+
+欢迎在 Issue 区留下你的答案。
+
+
+## 本周汇总
+
+2019-03-14
+
 > 第 33 题：下面的代码打印什么内容，为什么？
 
 ```js
@@ -19,10 +28,7 @@ var b = 10;
     console.log(b); 
 })();
 ```
-欢迎在 Issue 区留下你的答案。
-
-
-## 本周汇总
+解析：[第 33 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/48)
 
 2019-03-13
 
