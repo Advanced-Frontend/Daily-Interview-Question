@@ -5,8 +5,15 @@
 欢迎 PR 你认为不错的面试题，欢迎在 Issue 区留下你的答案，共同参与这个伟大的项目。
 
 
-
 ## 今日面试题
+
+2019-03-15
+
+> 第 34 题：使用迭代的方式实现flatten函数。
+
+欢迎在 Issue 区留下你的答案。
+
+## 本周汇总
 
 2019-03-14
 
@@ -19,10 +26,10 @@ var b = 10;
     console.log(b); 
 })();
 ```
-欢迎在 Issue 区留下你的答案。
+
+解析：[第 32 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/47)
 
 
-## 本周汇总
 
 2019-03-13
 
