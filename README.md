@@ -8,15 +8,28 @@
 
 ## 今日面试题
 
+2019-03-14
+
+> 第 33 题：下面的代码打印什么内容，为什么？
+
+```js
+var b = 10;
+(function b(){
+    b = 20;
+    console.log(b); 
+})();
+```
+欢迎在 Issue 区留下你的答案。
+
+
+## 本周汇总
+
 2019-03-13
 
 > 第 32 题：Virtual DOM 真的比操作原生 DOM 快吗？谈谈你的想法。
 
-欢迎在 Issue 区留下你的答案。
+解析：[第 32 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/47)
 
-
-
-## 本周汇总
 
 2019-03-12
 
@@ -31,7 +44,6 @@ for (var i = 0; i< 10; i++){
 ```
 
 解析：[第 31 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/43)
-
 
 
 2019-03-11
