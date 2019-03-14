@@ -4,25 +4,32 @@
 
 欢迎 PR 你认为不错的面试题，欢迎在 Issue 区留下你的答案，共同参与这个伟大的项目。
 
+
+
 ## 今日面试题
 
-2019-03-13
+2019-03-14
 
-> 第 32 题：对于下面的代码打印出来`b`的结果作出解释
+> 第 33 题：下面的代码打印什么内容，为什么？
 
 ```js
 var b = 10;
 (function b(){
     b = 20;
-    console.log(b); // [Function: b] 打印出来是函数 b ，不是20
+    console.log(b); 
 })();
 ```
-
 欢迎在 Issue 区留下你的答案。
 
 
-
 ## 本周汇总
+
+2019-03-13
+
+> 第 32 题：Virtual DOM 真的比操作原生 DOM 快吗？谈谈你的想法。
+
+解析：[第 32 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/47)
+
 
 2019-03-12
 
@@ -30,11 +37,14 @@ var b = 10;
 
 ```js
 for (var i = 0; i< 10; i++){
-    setTimeout(() => {
-	console.log(i);
+	setTimeout(() => {
+		console.log(i);
     }, 1000)
 }
 ```
+
+解析：[第 31 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/43)
+
 
 2019-03-11
 
