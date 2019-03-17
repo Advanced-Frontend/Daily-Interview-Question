@@ -8,6 +8,16 @@
 
 ## 今日面试题
 
+2019-03-18
+
+> 第 35 题：浏览器缓存可以分成 Service Worker、Memory Cache、Disk Cache 和 Push Cache，那请求的时候 from memory 和 from disk 的依据是什么，哪些数据什么时候存放在 Memory Cache 和 Disk Cache？中
+
+欢迎在 Issue 区留下你的答案。
+
+
+
+## 本周汇总
+
 2019-03-15
 
 > 第 34 题：简单改造下面的代码，使之分别打印 10 和 20。
@@ -19,11 +29,9 @@ var b = 10;
     console.log(b); 
 })();
 ```
-欢迎在 Issue 区留下你的答案。
 
+解析：[第 34 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/51)
 
-
-## 本周汇总
 
 2019-03-14
 
