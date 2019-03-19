@@ -5,22 +5,22 @@
 欢迎 PR 你认为不错的面试题，欢迎在 Issue 区留下你的答案，共同参与这个伟大的项目。
 
 
-
 ## 今日面试题
+
+2019-03-19
+
+> 第 36 题：使用迭代的方式实现 flatten 函数。
+
+欢迎在 Issue 区留下你的答案。
+
+
+## 本周汇总
 
 2019-03-18
 
 > 第 35 题：浏览器缓存可以分成 Service Worker、Memory Cache、Disk Cache 和 Push Cache，那请求的时候 from memory cache 和 from disk cache 的依据是什么，哪些数据什么时候存放在 Memory Cache 和 Disk Cache中？
 
-![image-20190317210836547](https://ws4.sinaimg.cn/large/006tKfTcgy1g163jarn8pj30yq074jtk.jpg)
-
-欢迎在 Issue 区留下你的答案。
-
-
-
-## 本周汇总
-
-
+解析：[第 35 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/53)
 
 
 
