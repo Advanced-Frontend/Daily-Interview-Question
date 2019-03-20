@@ -7,14 +7,24 @@
 
 ## 今日面试题
 
-2019-03-19
+2019-03-20
 
-> 第 36 题：使用迭代的方式实现 flatten 函数。
+> 第 37 题：为什么 Vuex 的 mutation 和 Redux 的 reducer 中不能做异步操作？
 
 欢迎在 Issue 区留下你的答案。
 
 
+
+
 ## 本周汇总
+
+2019-03-19
+
+> 第 36 题：使用迭代的方式实现 flatten 函数。
+
+解析：[第 36 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/54)
+
+
 
 2019-03-18
 
