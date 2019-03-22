@@ -25,7 +25,7 @@
 ```js
 var a = ?;
 if(a == 1 && a == 2 && a == 3){
- 	conso.log(1);
+ 	console.log(1);
 }
 ```
 
