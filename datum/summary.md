@@ -37,6 +37,11 @@
   - [第 32 题：Virtual DOM 真的比操作原生 DOM 快吗？谈谈你的想法。](#%E7%AC%AC-32-%E9%A2%98virtual-dom-%E7%9C%9F%E7%9A%84%E6%AF%94%E6%93%8D%E4%BD%9C%E5%8E%9F%E7%94%9F-dom-%E5%BF%AB%E5%90%97%E8%B0%88%E8%B0%88%E4%BD%A0%E7%9A%84%E6%83%B3%E6%B3%95)
   - [第 33 题：下面的代码打印什么内容，为什么？](#%E7%AC%AC-33-%E9%A2%98%E4%B8%8B%E9%9D%A2%E7%9A%84%E4%BB%A3%E7%A0%81%E6%89%93%E5%8D%B0%E4%BB%80%E4%B9%88%E5%86%85%E5%AE%B9%E4%B8%BA%E4%BB%80%E4%B9%88)
   - [第 34 题：简单改造下面的代码，使之分别打印 10 和 20。](#%E7%AC%AC-34-%E9%A2%98%E7%AE%80%E5%8D%95%E6%94%B9%E9%80%A0%E4%B8%8B%E9%9D%A2%E7%9A%84%E4%BB%A3%E7%A0%81%E4%BD%BF%E4%B9%8B%E5%88%86%E5%88%AB%E6%89%93%E5%8D%B0-10-%E5%92%8C-20)
+  - [第 35 题：浏览器缓存读取规则](#%E7%AC%AC-35-%E9%A2%98%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98%E8%AF%BB%E5%8F%96%E8%A7%84%E5%88%99)
+  - [第 36 题：使用迭代的方式实现 flatten 函数。](#%E7%AC%AC-36-%E9%A2%98%E4%BD%BF%E7%94%A8%E8%BF%AD%E4%BB%A3%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0-flatten-%E5%87%BD%E6%95%B0)
+  - [第 37 题：为什么 Vuex 的 mutation 和 Redux 的 reducer 中不能做异步操作？](#%E7%AC%AC-37-%E9%A2%98%E4%B8%BA%E4%BB%80%E4%B9%88-vuex-%E7%9A%84-mutation-%E5%92%8C-redux-%E7%9A%84-reducer-%E4%B8%AD%E4%B8%8D%E8%83%BD%E5%81%9A%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C)
+  - [第 38 题：下面代码中 a 在什么情况下会打印 1？](#%E7%AC%AC-38-%E9%A2%98%E4%B8%8B%E9%9D%A2%E4%BB%A3%E7%A0%81%E4%B8%AD-a-%E5%9C%A8%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E4%BC%9A%E6%89%93%E5%8D%B0-1)
+  - [第 39 题：介绍下 BFC 及其应用。](#%E7%AC%AC-39-%E9%A2%98%E4%BB%8B%E7%BB%8D%E4%B8%8B-bfc-%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -386,3 +391,43 @@ var b = 10;
 
 解析：[第 34 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/51)
 
+
+
+
+
+### 第 35 题：浏览器缓存读取规则
+
+可以分成 Service Worker、Memory Cache、Disk Cache 和 Push Cache，那请求的时候 from memory cache 和 from disk cache 的依据是什么，哪些数据什么时候存放在 Memory Cache 和 Disk Cache中？
+
+解析：[第 35 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/53)
+
+
+
+### 第 36 题：使用迭代的方式实现 flatten 函数。
+
+解析：[第 36 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/54)
+
+
+
+### 第 37 题：为什么 Vuex 的 mutation 和 Redux 的 reducer 中不能做异步操作？
+
+欢迎在 Issue 区留下你的答案。
+
+
+
+### 第 38 题：下面代码中 a 在什么情况下会打印 1？
+
+```js
+var a = ?;
+if(a == 1 && a == 2 && a == 3){
+ 	console.log(1);
+}
+```
+
+解析：[第 38 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/57)
+
+
+
+### 第 39 题：介绍下 BFC 及其应用。
+
+解析：[第 39 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/59)

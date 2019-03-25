@@ -5,11 +5,12 @@
 欢迎 PR 你认为不错的面试题，欢迎在 Issue 区留下你的答案，共同参与这个伟大的项目。
 
 
+
 ## 今日面试题
 
-2019-03-22
+2019-03-25
 
-> 第 39 题：介绍下 BFC 及其应用。
+> 第 40 题：在 Vue 中，子组件为何不可以修改父组件传递的 Prop，如果修改了，Vue 是如何监控到属性的修改并给出警告的。
 
 欢迎在 Issue 区留下你的答案。
 
@@ -17,43 +18,6 @@
 
 
 ## 本周汇总
-
-2019-03-21
-
-> 第 38 题：下面代码中 a 在什么情况下会打印 1？
-
-```js
-var a = ?;
-if(a == 1 && a == 2 && a == 3){
- 	console.log(1);
-}
-```
-
-解析：[第 38 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/57)
-
-
-
-2019-03-20
-
-> 第 37 题：为什么 Vuex 的 mutation 和 Redux 的 reducer 中不能做异步操作？
-
-欢迎在 Issue 区留下你的答案。
-
-
-
-2019-03-19
-
-> 第 36 题：使用迭代的方式实现 flatten 函数。
-
-解析：[第 36 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/54)
-
-
-
-2019-03-18
-
-> 第 35 题：浏览器缓存可以分成 Service Worker、Memory Cache、Disk Cache 和 Push Cache，那请求的时候 from memory cache 和 from disk cache 的依据是什么，哪些数据什么时候存放在 Memory Cache 和 Disk Cache中？
-
-解析：[第 35 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/53)
 
 
 
