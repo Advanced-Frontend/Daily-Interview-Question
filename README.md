@@ -8,6 +8,16 @@
 
 ## 今日面试题
 
+2019-03-27
+
+> 第 42 题：实现一个 sleep 函数，比如 sleep(1000) 意味着等待1000毫秒，可从 Promise、Generator、Async/Await 等角度实现
+
+欢迎在 Issue 区留下你的答案。
+
+
+
+## 本周汇总
+
 2019-03-26
 
 > 第 41 题：下面代码输出什么
@@ -23,11 +33,9 @@ var a = 10;
 })()
 ```
 
-欢迎在 Issue 区留下你的答案。
+解析：[第41题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/61)
 
 
-
-## 本周汇总
 
 2019-03-25
 
