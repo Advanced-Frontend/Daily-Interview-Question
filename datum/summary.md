@@ -42,6 +42,11 @@
   - [第 37 题：为什么 Vuex 的 mutation 和 Redux 的 reducer 中不能做异步操作？](#%E7%AC%AC-37-%E9%A2%98%E4%B8%BA%E4%BB%80%E4%B9%88-vuex-%E7%9A%84-mutation-%E5%92%8C-redux-%E7%9A%84-reducer-%E4%B8%AD%E4%B8%8D%E8%83%BD%E5%81%9A%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C)
   - [第 38 题：下面代码中 a 在什么情况下会打印 1？](#%E7%AC%AC-38-%E9%A2%98%E4%B8%8B%E9%9D%A2%E4%BB%A3%E7%A0%81%E4%B8%AD-a-%E5%9C%A8%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E4%BC%9A%E6%89%93%E5%8D%B0-1)
   - [第 39 题：介绍下 BFC 及其应用。](#%E7%AC%AC-39-%E9%A2%98%E4%BB%8B%E7%BB%8D%E4%B8%8B-bfc-%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8)
+  - [第 40 题：在 Vue 中，子组件为何不可以修改父组件传递的 Prop](#%E7%AC%AC-40-%E9%A2%98%E5%9C%A8-vue-%E4%B8%AD%E5%AD%90%E7%BB%84%E4%BB%B6%E4%B8%BA%E4%BD%95%E4%B8%8D%E5%8F%AF%E4%BB%A5%E4%BF%AE%E6%94%B9%E7%88%B6%E7%BB%84%E4%BB%B6%E4%BC%A0%E9%80%92%E7%9A%84-prop)
+  - [第 41 题：下面代码输出什么](#%E7%AC%AC-41-%E9%A2%98%E4%B8%8B%E9%9D%A2%E4%BB%A3%E7%A0%81%E8%BE%93%E5%87%BA%E4%BB%80%E4%B9%88)
+  - [第 42 题：实现一个 sleep 函数](#%E7%AC%AC-42-%E9%A2%98%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA-sleep-%E5%87%BD%E6%95%B0)
+  - [第 43 题：使用 sort() 对数组 [3, 15, 8, 29, 102, 22] 进行排序，输出结果](#%E7%AC%AC-43-%E9%A2%98%E4%BD%BF%E7%94%A8-sort-%E5%AF%B9%E6%95%B0%E7%BB%84-3-15-8-29-102-22-%E8%BF%9B%E8%A1%8C%E6%8E%92%E5%BA%8F%E8%BE%93%E5%87%BA%E7%BB%93%E6%9E%9C)
+  - [第 44 题：介绍 HTTPS 握手过程](#%E7%AC%AC-44-%E9%A2%98%E4%BB%8B%E7%BB%8D-https-%E6%8F%A1%E6%89%8B%E8%BF%87%E7%A8%8B)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -431,3 +436,58 @@ if(a == 1 && a == 2 && a == 3){
 ### 第 39 题：介绍下 BFC 及其应用。
 
 解析：[第 39 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/59)
+
+
+
+
+
+### 第 40 题：在 Vue 中，子组件为何不可以修改父组件传递的 Prop
+
+如果修改了，Vue 是如何监控到属性的修改并给出警告的。
+
+解析：[第 40 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/60)
+
+
+
+
+
+### 第 41 题：下面代码输出什么
+
+```js
+var a = 10;
+(function () {
+    console.log(a)
+    a = 5
+    console.log(window.a)
+    var a = 20;
+    console.log(a)
+})()
+```
+
+解析：[第41题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/61)
+
+
+
+
+
+### 第 42 题：实现一个 sleep 函数
+
+比如 sleep(1000) 意味着等待1000毫秒，可从 Promise、Generator、Async/Await 等角度实现
+
+解析：[第 42 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/63)
+
+
+
+
+
+### 第 43 题：使用 sort() 对数组 [3, 15, 8, 29, 102, 22] 进行排序，输出结果
+
+解析：[第 43 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/66)
+
+
+
+
+
+### 第 44 题：介绍 HTTPS 握手过程
+
+解析：[第 44 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/70)

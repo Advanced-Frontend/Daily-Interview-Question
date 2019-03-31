@@ -8,56 +8,15 @@
 
 ## 今日面试题
 
-2019-03-29
+2019-04-01
 
-> 第 44 题：介绍 HTTPS 握手过程
+> 第 45 题：HTTPS 握手过程中，客户端如何验证证书的合法性
 
 欢迎在 Issue 区留下你的答案。
 
 
 
 ## 本周汇总
-
-2019-03-28
-
-> 第 43 题：使用 sort() 对数组 [3, 15, 8, 29, 102, 22] 进行排序，输出结果
-
-解析：[第 43 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/66)
-
-
-
-2019-03-27
-
-> 第 42 题：实现一个 sleep 函数，比如 sleep(1000) 意味着等待1000毫秒，可从 Promise、Generator、Async/Await 等角度实现
-
-解析：[第 42 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/63)
-
-
-
-2019-03-26
-
-> 第 41 题：下面代码输出什么
-
-```js
-var a = 10;
-(function () {
-    console.log(a)
-    a = 5
-    console.log(window.a)
-    var a = 20;
-    console.log(a)
-})()
-```
-
-解析：[第41题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/61)
-
-
-
-2019-03-25
-
-> 第 40 题：在 Vue 中，子组件为何不可以修改父组件传递的 Prop，如果修改了，Vue 是如何监控到属性的修改并给出警告的。
-
-解析：[第 40 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/60)
 
 
 
