@@ -8,15 +8,34 @@
 
 ## 今日面试题
 
-2019-04-01
+2019-04-02
 
-> 第 45 题：HTTPS 握手过程中，客户端如何验证证书的合法性
+> 第 46 题：输出以下代码执行的结果并解释为什么
+
+```js
+var obj = {
+    '2': 3,
+    '3': 4,
+    'length': 2,
+    'splice': Array.prototype.splice,
+    'push': Array.prototype.push
+}
+obj.push(1)
+obj.push(2)
+console.log(obj)
+```
 
 欢迎在 Issue 区留下你的答案。
 
 
 
 ## 本周汇总
+
+2019-04-01
+
+> 第 45 题：HTTPS 握手过程中，客户端如何验证证书的合法性
+
+解析：[第 45 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/74)
 
 
 
