@@ -25,7 +25,7 @@ obj.push(2)
 console.log(obj)
 ```
 
-欢迎在 Issue 区留下你的答案。
+解析：[第 46 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/76)
 
 
 
@@ -42,6 +42,14 @@ console.log(obj)
 ## 历史汇总
 
 -   [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
+
+
+
+## 半月刊
+
+- [【半月刊 1】前端高频面试题及答案汇总](https://juejin.im/post/5c6977e46fb9a049fd1063dc)
+- [【半月刊 2】前端高频面试题及答案汇总](https://juejin.im/post/5c7bd72ef265da2de80f7f17)
+- [【半月刊 3】前端高频面试题及答案汇总](https://juejin.im/post/5c9ac3f66fb9a070e056718f)
 
 
 
