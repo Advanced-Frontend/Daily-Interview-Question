@@ -8,6 +8,16 @@
 
 ## 今日面试题
 
+2019-04-03
+
+> 第 47 题：双向绑定和 vuex 是否冲突
+
+欢迎在 Issue 区留下你的答案
+
+
+
+## 本周汇总
+
 2019-04-02
 
 > 第 46 题：输出以下代码执行的结果并解释为什么
@@ -28,8 +38,6 @@ console.log(obj)
 解析：[第 46 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/76)
 
 
-
-## 本周汇总
 
 2019-04-01
 
