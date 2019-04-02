@@ -12,9 +12,21 @@
 
 > 第 47 题： 实现一个发布订阅模式吧。
 
-2019-03-09
 
-> 第 30 题：请把俩个数组[A1,A2,A3,A4,A5,A6,A7,A8]和[A,B,C,D],合并为[A1,A2,A,A3,A4,B,A5,A6,C,A7,A8,D]
+> 第 46 题：输出以下代码执行的结果并解释为什么
+
+```js
+var obj = {
+    '2': 3,
+    '3': 4,
+    'length': 2,
+    'splice': Array.prototype.splice,
+    'push': Array.prototype.push
+}
+obj.push(1)
+obj.push(2)
+console.log(obj)
+```
 
 欢迎在 Issue 区留下你的答案。
 
@@ -22,52 +34,26 @@
 
 ## 本周汇总
 
-2019-03-07
+2019-04-01
 
-> 第 28 题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？
+> 第 45 题：HTTPS 握手过程中，客户端如何验证证书的合法性
 
-解析：[第28题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/31)
-
-
-
-2019-03-06
-
-> 第 27 题：全局作用域中，用 const 和 let 声明的变量不在 window 上，那到底在哪里？如何去获取？。
-
-解析：[第27题：关于 const 和 let 声明的变量不在 window 上](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/30)
-
-
-
-2019-03-05
-
-> 第 26 题：介绍模块化发展历程，可从IIFE、AMD、CMD、CommonJS、UMD、webpack(require.ensure)、ES Module、<script type="module"> 这几个角度考虑
-
-解析：[第26 题: 前端中的模块化开发](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/28)
-
-
-
-2019-03-04
-
-> 第 25 题：说说浏览器和 Node 事件循环的区别
-
-解析：[第25题：浏览器和Node 事件循环的区别](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/26)
-
- 
+解析：[第 45 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/74)
 
 
 
 ## 历史汇总
 
-- [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
+-   [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
 
 
 
 ## 交流
 
-进阶系列文章汇总如下，内有优质前端资料，觉得不错点个star。
+进阶系列文章汇总如下，内有优质前端资料，觉得不错点个 star。
 
 > [https://github.com/yygmind/blog](https://github.com/yygmind/blog)
 
-我是木易杨，网易高级前端工程师，跟着我**每周重点攻克一个前端面试重难点**。接下来让我带你走进高级前端的世界，在进阶的路上，共勉！
+我是木易杨，公众号「高级前端进阶」作者，跟着我**每周重点攻克一个前端面试重难点**。接下来让我带你走进高级前端的世界，在进阶的路上，共勉！
 
 如果你想加群讨论每期面试知识点，公众号回复「 [加群]() 」即可 ![image](https://github.com/yygmind/blog/raw/master/images/weixin_re.png)
