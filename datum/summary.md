@@ -3,7 +3,7 @@
 
 
 - [前端面试题及答案汇总](#%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88%E6%B1%87%E6%80%BB)
-  - [第 1 期：写 React / Vue 项目时为什么要在组件中写 key，其作用是什么](#%E7%AC%AC-1-%E6%9C%9F%E5%86%99-react--vue-%E9%A1%B9%E7%9B%AE%E6%97%B6%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%9C%A8%E7%BB%84%E4%BB%B6%E4%B8%AD%E5%86%99-key%E5%85%B6%E4%BD%9C%E7%94%A8%E6%98%AF%E4%BB%80%E4%B9%88)
+  - [第 1 期：写 React / Vue 项目时为什么要在列表组件中写 key，其作用是什么？](#%E7%AC%AC-1-%E6%9C%9F%E5%86%99-react--vue-%E9%A1%B9%E7%9B%AE%E6%97%B6%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%9C%A8%E5%88%97%E8%A1%A8%E7%BB%84%E4%BB%B6%E4%B8%AD%E5%86%99-key%E5%85%B6%E4%BD%9C%E7%94%A8%E6%98%AF%E4%BB%80%E4%B9%88)
   - [第 2 期：`['1', '2', '3'].map(parseInt)` what & why ?](#%E7%AC%AC-2-%E6%9C%9F1-2-3mapparseint-what--why-)
   - [第 3 期：什么是防抖和节流？有什么区别？如何实现？](#%E7%AC%AC-3-%E6%9C%9F%E4%BB%80%E4%B9%88%E6%98%AF%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0)
   - [第 4 期：介绍下 Set、Map、WeakSet 和 WeakMap 的区别？](#%E7%AC%AC-4-%E6%9C%9F%E4%BB%8B%E7%BB%8D%E4%B8%8B-setmapweakset-%E5%92%8C-weakmap-%E7%9A%84%E5%8C%BA%E5%88%AB)
@@ -58,7 +58,7 @@
 
 
 
-### 第 1 期：写 React / Vue 项目时为什么要在组件中写 key，其作用是什么
+### 第 1 期：写 React / Vue 项目时为什么要在列表组件中写 key，其作用是什么？
 
 解析：[第一题：key的作用是为了在diff算法执行时更快的找到对应的节点，提高diff速度。](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/1)
 

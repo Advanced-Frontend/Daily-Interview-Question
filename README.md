@@ -12,9 +12,9 @@
 
 > 第 48 题：call 和 apply 的区别是什么，哪个性能更好一些
 
-欢迎在 Issue 区留下你的答案
+解析：[第 48 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/84)
 
-
+<p/>
 
 ## 本周汇总
 
