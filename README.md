@@ -8,19 +8,39 @@
 
 ## 今日面试题
 
+2019-04-08
+
+> 第 49 题：为什么通常在发送数据埋点请求的时候使用的是 1x1 像素透明的 gif 图片？
+
+欢迎在 Issue 区留下你的答案
+
+
+<br/>
+
+
+
+## 本周汇总
+
+
 2019-04-04
 
-> 第 48 题：为什么通常在发送数据埋点请求的时候使用的是1x1像素透明的gif图片？
+> 第 48 题：call 和 apply 的区别是什么，哪个性能更好一些
+
+解析：[第 48 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/84)
+
+<br/>
+
+
 
 2019-04-03
 
 > 第 47 题：双向绑定和 vuex 是否冲突
 
-欢迎在 Issue 区留下你的答案
+解析：[第 47 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/81)
+
+<br/>
 
 
-
-## 本周汇总
 
 2019-04-02
 
@@ -41,6 +61,8 @@ console.log(obj)
 
 解析：[第 46 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/76)
 
+<br/>
+
 
 
 2019-04-01
@@ -49,11 +71,15 @@ console.log(obj)
 
 解析：[第 45 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/74)
 
+<br/>
+
 
 
 ## 历史汇总
 
 -   [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
+
+<br/>
 
 
 
@@ -62,6 +88,8 @@ console.log(obj)
 - [【半月刊 1】前端高频面试题及答案汇总](https://juejin.im/post/5c6977e46fb9a049fd1063dc)
 - [【半月刊 2】前端高频面试题及答案汇总](https://juejin.im/post/5c7bd72ef265da2de80f7f17)
 - [【半月刊 3】前端高频面试题及答案汇总](https://juejin.im/post/5c9ac3f66fb9a070e056718f)
+
+<br/>
 
 
 
