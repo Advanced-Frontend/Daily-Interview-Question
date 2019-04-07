@@ -10,7 +10,7 @@
 
 2019-04-08
 
-> 第 49 题：为什么通常在发送数据埋点请求的时候使用的是 1x1 像素透明的 gif 图片？
+> 第 49 题：为什么通常在发送数据埋点请求的时候使用的是 1x1 像素的透明 gif 图片？
 
 欢迎在 Issue 区留下你的答案
 
@@ -20,56 +20,6 @@
 
 
 ## 本周汇总
-
-
-2019-04-04
-
-> 第 48 题：call 和 apply 的区别是什么，哪个性能更好一些
-
-解析：[第 48 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/84)
-
-<br/>
-
-
-
-2019-04-03
-
-> 第 47 题：双向绑定和 vuex 是否冲突
-
-解析：[第 47 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/81)
-
-<br/>
-
-
-
-2019-04-02
-
-> 第 46 题：输出以下代码执行的结果并解释为什么
-
-```js
-var obj = {
-    '2': 3,
-    '3': 4,
-    'length': 2,
-    'splice': Array.prototype.splice,
-    'push': Array.prototype.push
-}
-obj.push(1)
-obj.push(2)
-console.log(obj)
-```
-
-解析：[第 46 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/76)
-
-<br/>
-
-
-
-2019-04-01
-
-> 第 45 题：HTTPS 握手过程中，客户端如何验证证书的合法性
-
-解析：[第 45 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/74)
 
 <br/>
 
