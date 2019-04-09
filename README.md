@@ -14,7 +14,7 @@
 >
 > 例： 5 + 3 - 2，结果为 6
 
-欢迎在 Issue 区留下你的答案
+解析：[第 50 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/88)
 
 <br/>
 
@@ -26,7 +26,7 @@
 
 > 第 49 题：为什么通常在发送数据埋点请求的时候使用的是 1x1 像素的透明 gif 图片？
 
-欢迎在 Issue 区留下你的答案
+解析：[第 49 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/87)
 
 <br/>
 
