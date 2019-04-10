@@ -8,9 +8,9 @@
 
 ## 今日面试题
 
-2019-04-10
+2019-04-11
 
-> 第 51 题：Vue 的响应式原理中 Object.defineProperty 有什么缺陷？为什么在 Vue3.0 采用了 Proxy，抛弃了 Object.defineProperty？
+> 第 52 题：怎么让一个 div 水平垂直居中
 >
 
 欢迎在 Issue 区留下你的答案
@@ -20,6 +20,16 @@
 
 
 ## 本周汇总
+
+2019-04-10
+
+> 第 51 题：Vue 的响应式原理中 Object.defineProperty 有什么缺陷？为什么在 Vue3.0 采用了 Proxy，抛弃了 Object.defineProperty？
+
+解析：[第 51 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/90)
+
+<br/>
+
+
 
 2019-04-09
 
