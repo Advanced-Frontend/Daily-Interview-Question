@@ -8,10 +8,18 @@
 
 ## 今日面试题
 
-2019-04-11
+2019-04-12
 
-> 第 52 题：怎么让一个 div 水平垂直居中
->
+> 第 53 题：输出以下代码的执行结果并解释为什么
+
+```js
+var a = {n: 1};
+var b = a;
+a.x = a = {n: 2};
+
+console.log(a.x) 	
+console.log(b.x)
+```
 
 欢迎在 Issue 区留下你的答案
 
@@ -20,6 +28,16 @@
 
 
 ## 本周汇总
+
+2019-04-11
+
+> 第 52 题：怎么让一个 div 水平垂直居中
+
+解析：[第 52 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/92)
+
+<br/>
+
+
 
 2019-04-10
 
