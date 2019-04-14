@@ -47,6 +47,15 @@
   - [第 42 题：实现一个 sleep 函数](#%E7%AC%AC-42-%E9%A2%98%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA-sleep-%E5%87%BD%E6%95%B0)
   - [第 43 题：使用 sort() 对数组 [3, 15, 8, 29, 102, 22] 进行排序，输出结果](#%E7%AC%AC-43-%E9%A2%98%E4%BD%BF%E7%94%A8-sort-%E5%AF%B9%E6%95%B0%E7%BB%84-3-15-8-29-102-22-%E8%BF%9B%E8%A1%8C%E6%8E%92%E5%BA%8F%E8%BE%93%E5%87%BA%E7%BB%93%E6%9E%9C)
   - [第 44 题：介绍 HTTPS 握手过程](#%E7%AC%AC-44-%E9%A2%98%E4%BB%8B%E7%BB%8D-https-%E6%8F%A1%E6%89%8B%E8%BF%87%E7%A8%8B)
+  - [第 45 题：HTTPS 握手过程中，客户端如何验证证书的合法性](#%E7%AC%AC-45-%E9%A2%98https-%E6%8F%A1%E6%89%8B%E8%BF%87%E7%A8%8B%E4%B8%AD%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%A6%82%E4%BD%95%E9%AA%8C%E8%AF%81%E8%AF%81%E4%B9%A6%E7%9A%84%E5%90%88%E6%B3%95%E6%80%A7)
+  - [第 46 题：输出以下代码执行的结果并解释为什么](#%E7%AC%AC-46-%E9%A2%98%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E5%B9%B6%E8%A7%A3%E9%87%8A%E4%B8%BA%E4%BB%80%E4%B9%88)
+  - [第 47 题：双向绑定和 vuex 是否冲突](#%E7%AC%AC-47-%E9%A2%98%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%92%8C-vuex-%E6%98%AF%E5%90%A6%E5%86%B2%E7%AA%81)
+  - [第 48 题：call 和 apply 的区别是什么，哪个性能更好一些](#%E7%AC%AC-48-%E9%A2%98call-%E5%92%8C-apply-%E7%9A%84%E5%8C%BA%E5%88%AB%E6%98%AF%E4%BB%80%E4%B9%88%E5%93%AA%E4%B8%AA%E6%80%A7%E8%83%BD%E6%9B%B4%E5%A5%BD%E4%B8%80%E4%BA%9B)
+  - [第 49 题：为什么通常在发送数据埋点请求的时候使用的是 1x1 像素的透明 gif 图片？](#%E7%AC%AC-49-%E9%A2%98%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%9A%E5%B8%B8%E5%9C%A8%E5%8F%91%E9%80%81%E6%95%B0%E6%8D%AE%E5%9F%8B%E7%82%B9%E8%AF%B7%E6%B1%82%E7%9A%84%E6%97%B6%E5%80%99%E4%BD%BF%E7%94%A8%E7%9A%84%E6%98%AF-1x1-%E5%83%8F%E7%B4%A0%E7%9A%84%E9%80%8F%E6%98%8E-gif-%E5%9B%BE%E7%89%87)
+  - [第 50 题：实现 (5).add(3).minus(2) 功能。](#%E7%AC%AC-50-%E9%A2%98%E5%AE%9E%E7%8E%B0-5add3minus2-%E5%8A%9F%E8%83%BD)
+  - [第 51 题：Vue 的响应式原理中 Object.defineProperty 有什么缺陷？](#%E7%AC%AC-51-%E9%A2%98vue-%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86%E4%B8%AD-objectdefineproperty-%E6%9C%89%E4%BB%80%E4%B9%88%E7%BC%BA%E9%99%B7)
+  - [第 52 题：怎么让一个 div 水平垂直居中](#%E7%AC%AC-52-%E9%A2%98%E6%80%8E%E4%B9%88%E8%AE%A9%E4%B8%80%E4%B8%AA-div-%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD)
+  - [第 53 题：输出以下代码的执行结果并解释为什么](#%E7%AC%AC-53-%E9%A2%98%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C%E5%B9%B6%E8%A7%A3%E9%87%8A%E4%B8%BA%E4%BB%80%E4%B9%88)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -566,6 +575,59 @@ console.log(obj)
 ### 第 48 题：call 和 apply 的区别是什么，哪个性能更好一些
 
 解析：[第 48 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/84)
+
+<br/>
+
+
+
+### 第 49 题：为什么通常在发送数据埋点请求的时候使用的是 1x1 像素的透明 gif 图片？
+
+解析：[第 49 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/87)
+
+<br/>
+
+
+
+### 第 50 题：实现 (5).add(3).minus(2) 功能。
+
+> 例： 5 + 3 - 2，结果为 6
+
+解析：[第 50 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/88)
+
+<br/>
+
+
+
+### 第 51 题：Vue 的响应式原理中 Object.defineProperty 有什么缺陷？
+
+为什么在 Vue3.0 采用了 Proxy，抛弃了 Object.defineProperty？
+
+解析：[第 51 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/90)
+
+<br/>
+
+
+
+### 第 52 题：怎么让一个 div 水平垂直居中
+
+解析：[第 52 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/92)
+
+<br/>
+
+
+
+### 第 53 题：输出以下代码的执行结果并解释为什么
+
+```js
+var a = {n: 1};
+var b = a;
+a.x = a = {n: 2};
+
+console.log(a.x) 	
+console.log(b.x)
+```
+
+解析：[第 53 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/93)
 
 <br/>
 
