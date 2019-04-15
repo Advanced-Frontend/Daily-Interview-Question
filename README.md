@@ -10,17 +10,23 @@
 
 ## 今日面试题
 
-2019-04-15
+2019-04-16
 
-> 第 54 题：冒泡排序如何实现，时间复杂度是多少， 还可以如何改进？
+> 第 55 题：某公司 1 到 12 月份的销售额存在一个对象里面，如下：{1:222, 2:123, 5:888}，请把数据处理为如下结构：[222, 123, null, null, 888, null, null, null, null, null, null, null]。
 
-解析：[第 54 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/94)
+欢迎在 Issue 区留下你的答案
 
 <br/>
 
 
 
 ## 本周汇总
+
+2019-04-15
+
+> 第 54 题：冒泡排序如何实现，时间复杂度是多少， 还可以如何改进？
+
+解析：[第 54 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/94)
 
 <br/>
 
