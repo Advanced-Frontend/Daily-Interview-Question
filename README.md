@@ -10,6 +10,18 @@
 
 ## 今日面试题
 
+2019-04-18
+
+> 第 57 题：分析比较 opacity: 0、visibility: hidden、display: none 优劣和适用场景。 
+
+欢迎在 Issue 区留下你的答案
+
+<br/>
+
+
+
+## 本周汇总
+
 2019-04-17
 
 > 第 56 题：要求设计 LazyMan 类，实现以下功能。 
@@ -38,15 +50,11 @@ LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk foo
 // I am eating junk food
 ```
 
-
-
-欢迎在 Issue 区留下你的答案
+解析：[第 56 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/98)
 
 <br/>
 
 
-
-## 本周汇总
 
 2019-04-16
 
