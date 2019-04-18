@@ -7,20 +7,27 @@
 <br/>
 
 
-
 ## 今日面试题
 
-2019-04-18
+2019-04-19
 
-> 第 57 题：分析比较 opacity: 0、visibility: hidden、display: none 优劣和适用场景。 
+> 第 58 题：箭头函数与普通函数（function）的区别是什么? 构造函数（function）可以使用 new 生成实例，那么箭头函数可以吗? 为什么？
 
 欢迎在 Issue 区留下你的答案
 
 <br/>
 
 
-
 ## 本周汇总
+
+2019-04-18
+
+> 第 57 题：分析比较 opacity: 0、visibility: hidden、display: none 优劣和适用场景。 
+
+解析：[第 57 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/100)
+
+<br/>
+
 
 2019-04-17
 
