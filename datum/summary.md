@@ -56,6 +56,11 @@
   - [第 51 题：Vue 的响应式原理中 Object.defineProperty 有什么缺陷？](#%E7%AC%AC-51-%E9%A2%98vue-%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86%E4%B8%AD-objectdefineproperty-%E6%9C%89%E4%BB%80%E4%B9%88%E7%BC%BA%E9%99%B7)
   - [第 52 题：怎么让一个 div 水平垂直居中](#%E7%AC%AC-52-%E9%A2%98%E6%80%8E%E4%B9%88%E8%AE%A9%E4%B8%80%E4%B8%AA-div-%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD)
   - [第 53 题：输出以下代码的执行结果并解释为什么](#%E7%AC%AC-53-%E9%A2%98%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C%E5%B9%B6%E8%A7%A3%E9%87%8A%E4%B8%BA%E4%BB%80%E4%B9%88)
+  - [第 54 题：冒泡排序如何实现，时间复杂度是多少， 还可以如何改进？](#%E7%AC%AC-54-%E9%A2%98%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E6%98%AF%E5%A4%9A%E5%B0%91-%E8%BF%98%E5%8F%AF%E4%BB%A5%E5%A6%82%E4%BD%95%E6%94%B9%E8%BF%9B)
+  - [第 55 题：某公司 1 到 12 月份的销售额存在一个对象里面](#%E7%AC%AC-55-%E9%A2%98%E6%9F%90%E5%85%AC%E5%8F%B8-1-%E5%88%B0-12-%E6%9C%88%E4%BB%BD%E7%9A%84%E9%94%80%E5%94%AE%E9%A2%9D%E5%AD%98%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%AF%B9%E8%B1%A1%E9%87%8C%E9%9D%A2)
+  - [第 56 题：要求设计 LazyMan 类，实现以下功能。](#%E7%AC%AC-56-%E9%A2%98%E8%A6%81%E6%B1%82%E8%AE%BE%E8%AE%A1-lazyman-%E7%B1%BB%E5%AE%9E%E7%8E%B0%E4%BB%A5%E4%B8%8B%E5%8A%9F%E8%83%BD)
+  - [第 57 题：分析比较 opacity: 0、visibility: hidden、display: none 优劣和适用场景。](#%E7%AC%AC-57-%E9%A2%98%E5%88%86%E6%9E%90%E6%AF%94%E8%BE%83-opacity-0visibility-hiddendisplay-none-%E4%BC%98%E5%8A%A3%E5%92%8C%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF)
+  - [第 58 题：箭头函数与普通函数（function）的区别是什么？构造函数（function）可以使用 new 生成实例，那么箭头函数可以吗？为什么？](#%E7%AC%AC-58-%E9%A2%98%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E4%B8%8E%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0function%E7%9A%84%E5%8C%BA%E5%88%AB%E6%98%AF%E4%BB%80%E4%B9%88%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0function%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8-new-%E7%94%9F%E6%88%90%E5%AE%9E%E4%BE%8B%E9%82%A3%E4%B9%88%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E5%8F%AF%E4%BB%A5%E5%90%97%E4%B8%BA%E4%BB%80%E4%B9%88)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -628,6 +633,72 @@ console.log(b.x)
 ```
 
 解析：[第 53 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/93)
+
+<br/>
+
+
+
+### 第 54 题：冒泡排序如何实现，时间复杂度是多少， 还可以如何改进？
+
+解析：[第 54 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/94)
+
+<br/>
+
+
+
+### 第 55 题：某公司 1 到 12 月份的销售额存在一个对象里面
+
+如下：{1:222, 2:123, 5:888}，请把数据处理为如下结构：[222, 123, null, null, 888, null, null, null, null, null, null, null]。
+
+解析：[第 55 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/96)
+
+<br/>
+
+
+
+### 第 56 题：要求设计 LazyMan 类，实现以下功能。 
+
+```js
+LazyMan('Tony');
+// Hi I am Tony
+
+LazyMan('Tony').sleep(10).eat('lunch');
+// Hi I am Tony
+// 等待了10秒...
+// I am eating lunch
+
+LazyMan('Tony').eat('lunch').sleep(10).eat('dinner');
+// Hi I am Tony
+// I am eating lunch
+// 等待了10秒...
+// I am eating diner
+
+LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk food');
+// Hi I am Tony
+// 等待了5秒...
+// I am eating lunch
+// I am eating dinner
+// 等待了10秒...
+// I am eating junk food
+```
+
+解析：[第 56 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/98)
+
+<br/>
+
+
+
+### 第 57 题：分析比较 opacity: 0、visibility: hidden、display: none 优劣和适用场景。 
+
+解析：[第 57 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/100)
+
+<br/>
+
+
+
+### 第 58 题：箭头函数与普通函数（function）的区别是什么？构造函数（function）可以使用 new 生成实例，那么箭头函数可以吗？为什么？
+
+解析：[第 58 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/101)
 
 <br/>
 

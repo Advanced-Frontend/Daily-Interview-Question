@@ -9,75 +9,24 @@
 
 ## 今日面试题
 
-2019-04-19
+2019-04-22
 
-> 第 58 题：箭头函数与普通函数（function）的区别是什么？构造函数（function）可以使用 new 生成实例，那么箭头函数可以吗？为什么？
+> 第 59 题：给定两个数组，写一个方法来计算它们的交集。
+>
+> 例如：给定 nums1 = [1, 2, 2, 1]，nums2 = [2, 2]，返回 [2, 2]。
+
+
 
 欢迎在 Issue 区留下你的答案
 
 <br/>
 
 
+
+
 ## 本周汇总
 
-2019-04-18
 
-> 第 57 题：分析比较 opacity: 0、visibility: hidden、display: none 优劣和适用场景。 
-
-解析：[第 57 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/100)
-
-<br/>
-
-
-2019-04-17
-
-> 第 56 题：要求设计 LazyMan 类，实现以下功能。 
-
-```js
-LazyMan('Tony');
-// Hi I am Tony
-
-LazyMan('Tony').sleep(10).eat('lunch');
-// Hi I am Tony
-// 等待了10秒...
-// I am eating lunch
-
-LazyMan('Tony').eat('lunch').sleep(10).eat('dinner');
-// Hi I am Tony
-// I am eating lunch
-// 等待了10秒...
-// I am eating diner
-
-LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk food');
-// Hi I am Tony
-// 等待了5秒...
-// I am eating lunch
-// I am eating dinner
-// 等待了10秒...
-// I am eating junk food
-```
-
-解析：[第 56 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/98)
-
-<br/>
-
-
-
-2019-04-16
-
-> 第 55 题：某公司 1 到 12 月份的销售额存在一个对象里面，如下：{1:222, 2:123, 5:888}，请把数据处理为如下结构：[222, 123, null, null, 888, null, null, null, null, null, null, null]。
-
-解析：[第 55 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/96)
-
-<br/>
-
-
-
-2019-04-15
-
-> 第 54 题：冒泡排序如何实现，时间复杂度是多少， 还可以如何改进？
-
-解析：[第 54 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/94)
 
 <br/>
 
