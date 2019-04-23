@@ -9,11 +9,11 @@
 
 ## 今日面试题
 
-2019-04-23
 
-> 第 60 题：已知如下代码，如何修改才能让图片宽度为 300px ？注意下面代码不可修改。
->
-> `<img src="1.jpg" style="width:480px!important;”>`
+
+2019-04-24
+
+> 第 61 题：介绍下如何实现 token 加密
 
 
 
@@ -25,6 +25,18 @@
 
 
 ## 本周汇总
+
+2019-04-23
+
+> 第 60 题：已知如下代码，如何修改才能让图片宽度为 300px ？注意下面代码不可修改。
+>
+> `<img src="1.jpg" style="width:480px!important;”>`
+
+解析：[第 60 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/105)
+
+<br/>
+
+
 
 2019-04-22
 
