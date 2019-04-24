@@ -11,9 +11,9 @@
 
 
 
-2019-04-24
+2019-04-25
 
-> 第 61 题：介绍下如何实现 token 加密
+> 第 62 题：redux 为什么要把 reducer 设计成纯函数
 
 
 
@@ -25,6 +25,16 @@
 
 
 ## 本周汇总
+
+2019-04-24
+
+> 第 61 题：介绍下如何实现 token 加密
+
+解析：[第 61 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/106)
+
+<br/>
+
+
 
 2019-04-23
 
