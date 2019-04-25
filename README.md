@@ -11,9 +11,9 @@
 
 
 
-2019-04-25
+2019-04-26
 
-> 第 62 题：redux 为什么要把 reducer 设计成纯函数
+> 第 63 题：如何设计实现无缝轮播
 
 
 
@@ -25,6 +25,16 @@
 
 
 ## 本周汇总
+
+2019-04-25
+
+> 第 62 题：redux 为什么要把 reducer 设计成纯函数
+
+解析：[第 62 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/107)
+
+<br/>
+
+
 
 2019-04-24
 
