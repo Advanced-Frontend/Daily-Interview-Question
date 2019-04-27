@@ -11,9 +11,9 @@
 
 
 
-2019-04-26
+2019-04-28
 
-> 第 63 题：如何设计实现无缝轮播
+> 第 64 题：模拟实现一个 Promise.finally
 
 
 
@@ -25,6 +25,16 @@
 
 
 ## 本周汇总
+
+2019-04-26
+
+> 第 63 题：如何设计实现无缝轮播
+
+[第 63 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/108)
+
+<br/>
+
+
 
 2019-04-25
 
