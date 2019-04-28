@@ -9,11 +9,9 @@
 
 ## 今日面试题
 
+2019-04-29
 
-
-2019-04-28
-
-> 第 64 题：模拟实现一个 Promise.finally
+> 第 65 题： `a.b.c.d` 和 `a['b']['c']['d']`，哪个性能更高？
 
 
 
@@ -26,11 +24,21 @@
 
 ## 本周汇总
 
+2019-04-28
+
+> 第 64 题：模拟实现一个 Promise.finally
+
+解析：[第 64 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/109)
+
+<br/>
+
+
+
 2019-04-26
 
 > 第 63 题：如何设计实现无缝轮播
 
-[第 63 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/108)
+解析：[第 63 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/108)
 
 <br/>
 
