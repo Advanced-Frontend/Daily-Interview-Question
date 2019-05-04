@@ -9,11 +9,9 @@
 
 ## 今日面试题
 
-2019-04-29
+2019-05-05
 
-> 第 65 题： `a.b.c.d` 和 `a['b']['c']['d']`，哪个性能更高？
-
-
+> 第 66 题：ES6 代码转成 ES5 代码的实现思路是什么
 
 欢迎在 Issue 区留下你的答案
 
@@ -24,65 +22,7 @@
 
 ## 本周汇总
 
-2019-04-28
 
-> 第 64 题：模拟实现一个 Promise.finally
-
-解析：[第 64 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/109)
-
-<br/>
-
-
-
-2019-04-26
-
-> 第 63 题：如何设计实现无缝轮播
-
-解析：[第 63 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/108)
-
-<br/>
-
-
-
-2019-04-25
-
-> 第 62 题：redux 为什么要把 reducer 设计成纯函数
-
-解析：[第 62 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/107)
-
-<br/>
-
-
-
-2019-04-24
-
-> 第 61 题：介绍下如何实现 token 加密
-
-解析：[第 61 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/106)
-
-<br/>
-
-
-
-2019-04-23
-
-> 第 60 题：已知如下代码，如何修改才能让图片宽度为 300px ？注意下面代码不可修改。
->
-> `<img src="1.jpg" style="width:480px!important;”>`
-
-解析：[第 60 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/105)
-
-<br/>
-
-
-
-2019-04-22
-
-> 第 59 题：给定两个数组，写一个方法来计算它们的交集。
->
-> 例如：给定 nums1 = [1, 2, 2, 1]，nums2 = [2, 2]，返回 [2, 2]。
-
-解析：[第 59 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/102)
 
 <br/>
 

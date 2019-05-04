@@ -61,6 +61,13 @@
   - [第 56 题：要求设计 LazyMan 类，实现以下功能。](#%E7%AC%AC-56-%E9%A2%98%E8%A6%81%E6%B1%82%E8%AE%BE%E8%AE%A1-lazyman-%E7%B1%BB%E5%AE%9E%E7%8E%B0%E4%BB%A5%E4%B8%8B%E5%8A%9F%E8%83%BD)
   - [第 57 题：分析比较 opacity: 0、visibility: hidden、display: none 优劣和适用场景。](#%E7%AC%AC-57-%E9%A2%98%E5%88%86%E6%9E%90%E6%AF%94%E8%BE%83-opacity-0visibility-hiddendisplay-none-%E4%BC%98%E5%8A%A3%E5%92%8C%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF)
   - [第 58 题：箭头函数与普通函数（function）的区别是什么？构造函数（function）可以使用 new 生成实例，那么箭头函数可以吗？为什么？](#%E7%AC%AC-58-%E9%A2%98%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E4%B8%8E%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0function%E7%9A%84%E5%8C%BA%E5%88%AB%E6%98%AF%E4%BB%80%E4%B9%88%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0function%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8-new-%E7%94%9F%E6%88%90%E5%AE%9E%E4%BE%8B%E9%82%A3%E4%B9%88%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E5%8F%AF%E4%BB%A5%E5%90%97%E4%B8%BA%E4%BB%80%E4%B9%88)
+  - [第 59 题：给定两个数组，写一个方法来计算它们的交集。](#%E7%AC%AC-59-%E9%A2%98%E7%BB%99%E5%AE%9A%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E5%86%99%E4%B8%80%E4%B8%AA%E6%96%B9%E6%B3%95%E6%9D%A5%E8%AE%A1%E7%AE%97%E5%AE%83%E4%BB%AC%E7%9A%84%E4%BA%A4%E9%9B%86)
+  - [第 60 题：已知如下代码，如何修改才能让图片宽度为 300px ？注意下面代码不可修改。](#%E7%AC%AC-60-%E9%A2%98%E5%B7%B2%E7%9F%A5%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9%E6%89%8D%E8%83%BD%E8%AE%A9%E5%9B%BE%E7%89%87%E5%AE%BD%E5%BA%A6%E4%B8%BA-300px-%E6%B3%A8%E6%84%8F%E4%B8%8B%E9%9D%A2%E4%BB%A3%E7%A0%81%E4%B8%8D%E5%8F%AF%E4%BF%AE%E6%94%B9)
+  - [第 61 题：介绍下如何实现 token 加密](#%E7%AC%AC-61-%E9%A2%98%E4%BB%8B%E7%BB%8D%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0-token-%E5%8A%A0%E5%AF%86)
+  - [第 62 题：redux 为什么要把 reducer 设计成纯函数](#%E7%AC%AC-62-%E9%A2%98redux-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%8A%8A-reducer-%E8%AE%BE%E8%AE%A1%E6%88%90%E7%BA%AF%E5%87%BD%E6%95%B0)
+  - [第 63 题：如何设计实现无缝轮播](#%E7%AC%AC-63-%E9%A2%98%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1%E5%AE%9E%E7%8E%B0%E6%97%A0%E7%BC%9D%E8%BD%AE%E6%92%AD)
+  - [第 64 题：模拟实现一个 Promise.finally](#%E7%AC%AC-64-%E9%A2%98%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA-promisefinally)
+  - [第 65 题： `a.b.c.d` 和 `a['b']['c']['d']`，哪个性能更高？](#%E7%AC%AC-65-%E9%A2%98-abcd-%E5%92%8C-abcd%E5%93%AA%E4%B8%AA%E6%80%A7%E8%83%BD%E6%9B%B4%E9%AB%98)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -699,6 +706,66 @@ LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk foo
 ### 第 58 题：箭头函数与普通函数（function）的区别是什么？构造函数（function）可以使用 new 生成实例，那么箭头函数可以吗？为什么？
 
 解析：[第 58 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/101)
+
+<br/>
+
+
+
+### 第 59 题：给定两个数组，写一个方法来计算它们的交集。
+
+> 例如：给定 nums1 = [1, 2, 2, 1]，nums2 = [2, 2]，返回 [2, 2]。
+
+解析：[第 59 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/102)
+
+<br/>
+
+
+
+### 第 60 题：已知如下代码，如何修改才能让图片宽度为 300px ？注意下面代码不可修改。
+
+> `<img src="1.jpg" style="width:480px!important;”>`
+
+解析：[第 60 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/105)
+
+<br/>
+
+
+
+### 第 61 题：介绍下如何实现 token 加密
+
+解析：[第 61 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/106)
+
+<br/>
+
+
+
+### 第 62 题：redux 为什么要把 reducer 设计成纯函数
+
+解析：[第 62 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/107)
+
+<br/>
+
+
+
+### 第 63 题：如何设计实现无缝轮播
+
+解析：[第 63 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/108)
+
+<br/>
+
+
+
+### 第 64 题：模拟实现一个 Promise.finally
+
+解析：[第 64 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/109)
+
+<br/>
+
+
+
+### 第 65 题： `a.b.c.d` 和 `a['b']['c']['d']`，哪个性能更高？
+
+解析：[第 65 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/111)
 
 <br/>
 
