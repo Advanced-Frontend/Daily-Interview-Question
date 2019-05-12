@@ -68,6 +68,12 @@
   - [第 63 题：如何设计实现无缝轮播](#%E7%AC%AC-63-%E9%A2%98%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1%E5%AE%9E%E7%8E%B0%E6%97%A0%E7%BC%9D%E8%BD%AE%E6%92%AD)
   - [第 64 题：模拟实现一个 Promise.finally](#%E7%AC%AC-64-%E9%A2%98%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA-promisefinally)
   - [第 65 题： `a.b.c.d` 和 `a['b']['c']['d']`，哪个性能更高？](#%E7%AC%AC-65-%E9%A2%98-abcd-%E5%92%8C-abcd%E5%93%AA%E4%B8%AA%E6%80%A7%E8%83%BD%E6%9B%B4%E9%AB%98)
+  - [第 66 题：ES6 代码转成 ES5 代码的实现思路是什么](#%E7%AC%AC-66-%E9%A2%98es6-%E4%BB%A3%E7%A0%81%E8%BD%AC%E6%88%90-es5-%E4%BB%A3%E7%A0%81%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF%E6%98%AF%E4%BB%80%E4%B9%88)
+  - [第 67 题：数组编程题](#%E7%AC%AC-67-%E9%A2%98%E6%95%B0%E7%BB%84%E7%BC%96%E7%A8%8B%E9%A2%98)
+  - [第 68 题： 如何解决移动端 Retina 屏 1px 像素问题](#%E7%AC%AC-68-%E9%A2%98-%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E7%A7%BB%E5%8A%A8%E7%AB%AF-retina-%E5%B1%8F-1px-%E5%83%8F%E7%B4%A0%E9%97%AE%E9%A2%98)
+  - [第 69 题： 如何把一个字符串的大小写取反（大写变小写小写变大写），例如 ’AbC' 变成 'aBc' 。](#%E7%AC%AC-69-%E9%A2%98-%E5%A6%82%E4%BD%95%E6%8A%8A%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%86%99%E5%8F%96%E5%8F%8D%E5%A4%A7%E5%86%99%E5%8F%98%E5%B0%8F%E5%86%99%E5%B0%8F%E5%86%99%E5%8F%98%E5%A4%A7%E5%86%99%E4%BE%8B%E5%A6%82-abc-%E5%8F%98%E6%88%90-abc-)
+  - [第 70 题： 介绍下 webpack 热更新原理，是如何做到在不刷新浏览器的前提下更新页面的](#%E7%AC%AC-70-%E9%A2%98-%E4%BB%8B%E7%BB%8D%E4%B8%8B-webpack-%E7%83%AD%E6%9B%B4%E6%96%B0%E5%8E%9F%E7%90%86%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%9C%A8%E4%B8%8D%E5%88%B7%E6%96%B0%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E5%89%8D%E6%8F%90%E4%B8%8B%E6%9B%B4%E6%96%B0%E9%A1%B5%E9%9D%A2%E7%9A%84)
+  - [第 71 题： 实现一个字符串匹配算法，从长度为 n 的字符串 S 中，查找是否存在字符串 T，T 的长度是 m，若存在返回所在位置。](#%E7%AC%AC-71-%E9%A2%98-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95%E4%BB%8E%E9%95%BF%E5%BA%A6%E4%B8%BA-n-%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2-s-%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E5%AD%97%E7%AC%A6%E4%B8%B2-tt-%E7%9A%84%E9%95%BF%E5%BA%A6%E6%98%AF-m%E8%8B%A5%E5%AD%98%E5%9C%A8%E8%BF%94%E5%9B%9E%E6%89%80%E5%9C%A8%E4%BD%8D%E7%BD%AE)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -766,6 +772,56 @@ LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk foo
 ### 第 65 题： `a.b.c.d` 和 `a['b']['c']['d']`，哪个性能更高？
 
 解析：[第 65 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/111)
+
+<br/>
+
+
+
+### 第 66 题：ES6 代码转成 ES5 代码的实现思路是什么
+
+解析：[第 66 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/112)
+
+<br/>
+
+
+
+### 第 67 题：数组编程题
+
+随机生成一个长度为 10 的整数类型的数组，例如 `[2, 10, 3, 4, 5, 11, 10, 11, 20]`，将其排列成一个新数组，要求新数组形式如下，例如 `[[2, 3, 4, 5], [10, 11], [20]]`。
+
+解析：[第 67 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/113)
+
+<br/>
+
+
+
+### 第 68 题： 如何解决移动端 Retina 屏 1px 像素问题
+
+解析：[第 68 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/115)
+
+<br/>
+
+
+
+### 第 69 题： 如何把一个字符串的大小写取反（大写变小写小写变大写），例如 ’AbC' 变成 'aBc' 。
+
+解析：[第 69 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/116)
+
+<br/>
+
+
+
+### 第 70 题： 介绍下 webpack 热更新原理，是如何做到在不刷新浏览器的前提下更新页面的
+
+解析：[第 70 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/118)
+
+<br/>
+
+
+
+### 第 71 题： 实现一个字符串匹配算法，从长度为 n 的字符串 S 中，查找是否存在字符串 T，T 的长度是 m，若存在返回所在位置。
+
+解析：[第 71 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/119)
 
 <br/>
 
