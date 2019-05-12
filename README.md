@@ -11,9 +11,10 @@
 
 ## 今日面试题
 
-2019-05-10
+2019-05-13
 
-> 第 71 题： 实现一个字符串匹配算法，从长度为 n 的字符串 S 中，查找是否存在字符串 T，T 的长度是 m，若存在返回所在位置。
+> 第 72 题： 为什么普通`for`循环的性能远远高于`forEach`的性能,请解释其中的原因?
+![](https://raw.githubusercontent.com/jjeejj/Pic_Save_Repo/master/js-foreach-compare-for.png)
 
 欢迎在 Issue 区留下你的答案
 
@@ -23,6 +24,12 @@
 
 
 ## 本周汇总
+
+2019-05-10
+
+> 第 71 题： 实现一个字符串匹配算法，从长度为 n 的字符串 S 中，查找是否存在字符串 T，T 的长度是 m，若存在返回所在位置。
+
+解析：[第 71 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/119)
 
 2019-05-09
 
