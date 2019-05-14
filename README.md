@@ -11,11 +11,9 @@
 
 ## 今日面试题
 
-2019-05-14
+2019-05-15
 
-> 第 73 题： 介绍下 BFC、IFC、GFC 和 FFC
-
-
+> 第 74 题： 使用 JavaScript Proxy 实现简单的数据绑定
 
 欢迎在 Issue 区留下你的答案
 
@@ -25,6 +23,16 @@
 
 
 ## 本周汇总
+
+2019-05-14
+
+> 第 73 题： 介绍下 BFC、IFC、GFC 和 FFC
+
+解析：[第 73 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/122)
+
+<br/>
+
+
 
 2019-05-13
 
