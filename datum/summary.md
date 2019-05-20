@@ -74,6 +74,11 @@
   - [第 69 题： 如何把一个字符串的大小写取反（大写变小写小写变大写），例如 ’AbC' 变成 'aBc' 。](#%E7%AC%AC-69-%E9%A2%98-%E5%A6%82%E4%BD%95%E6%8A%8A%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%86%99%E5%8F%96%E5%8F%8D%E5%A4%A7%E5%86%99%E5%8F%98%E5%B0%8F%E5%86%99%E5%B0%8F%E5%86%99%E5%8F%98%E5%A4%A7%E5%86%99%E4%BE%8B%E5%A6%82-abc-%E5%8F%98%E6%88%90-abc-)
   - [第 70 题： 介绍下 webpack 热更新原理，是如何做到在不刷新浏览器的前提下更新页面的](#%E7%AC%AC-70-%E9%A2%98-%E4%BB%8B%E7%BB%8D%E4%B8%8B-webpack-%E7%83%AD%E6%9B%B4%E6%96%B0%E5%8E%9F%E7%90%86%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%9C%A8%E4%B8%8D%E5%88%B7%E6%96%B0%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E5%89%8D%E6%8F%90%E4%B8%8B%E6%9B%B4%E6%96%B0%E9%A1%B5%E9%9D%A2%E7%9A%84)
   - [第 71 题： 实现一个字符串匹配算法，从长度为 n 的字符串 S 中，查找是否存在字符串 T，T 的长度是 m，若存在返回所在位置。](#%E7%AC%AC-71-%E9%A2%98-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95%E4%BB%8E%E9%95%BF%E5%BA%A6%E4%B8%BA-n-%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2-s-%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E5%AD%97%E7%AC%A6%E4%B8%B2-tt-%E7%9A%84%E9%95%BF%E5%BA%A6%E6%98%AF-m%E8%8B%A5%E5%AD%98%E5%9C%A8%E8%BF%94%E5%9B%9E%E6%89%80%E5%9C%A8%E4%BD%8D%E7%BD%AE)
+  - [第 72 题： 为什么普通 `for` 循环的性能远远高于 `forEach` 的性能，请解释其中的原因。](#%E7%AC%AC-72-%E9%A2%98-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%99%AE%E9%80%9A-for-%E5%BE%AA%E7%8E%AF%E7%9A%84%E6%80%A7%E8%83%BD%E8%BF%9C%E8%BF%9C%E9%AB%98%E4%BA%8E-foreach-%E7%9A%84%E6%80%A7%E8%83%BD%E8%AF%B7%E8%A7%A3%E9%87%8A%E5%85%B6%E4%B8%AD%E7%9A%84%E5%8E%9F%E5%9B%A0)
+  - [第 73 题： 介绍下 BFC、IFC、GFC 和 FFC](#%E7%AC%AC-73-%E9%A2%98-%E4%BB%8B%E7%BB%8D%E4%B8%8B-bfcifcgfc-%E5%92%8C-ffc)
+  - [第 74 题： 使用 JavaScript Proxy 实现简单的数据绑定](#%E7%AC%AC-74-%E9%A2%98-%E4%BD%BF%E7%94%A8-javascript-proxy-%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A)
+  - [第 75 题：数组里面有10万个数据，取第一个元素和第10万个元素的时间相差多少](#%E7%AC%AC-75-%E9%A2%98%E6%95%B0%E7%BB%84%E9%87%8C%E9%9D%A2%E6%9C%8910%E4%B8%87%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%8F%96%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E5%92%8C%E7%AC%AC10%E4%B8%87%E4%B8%AA%E5%85%83%E7%B4%A0%E7%9A%84%E6%97%B6%E9%97%B4%E7%9B%B8%E5%B7%AE%E5%A4%9A%E5%B0%91)
+  - [第 76 题：输出以下代码运行结果](#%E7%AC%AC-76-%E9%A2%98%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B%E4%BB%A3%E7%A0%81%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -822,6 +827,72 @@ LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(10).eat('junk foo
 ### 第 71 题： 实现一个字符串匹配算法，从长度为 n 的字符串 S 中，查找是否存在字符串 T，T 的长度是 m，若存在返回所在位置。
 
 解析：[第 71 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/119)
+
+<br/>
+
+
+
+### 第 72 题： 为什么普通 `for` 循环的性能远远高于 `forEach` 的性能，请解释其中的原因。
+
+![image-20190512225510941](https://ws2.sinaimg.cn/large/006tNc79gy1g2yxbg4ta8j31gh0u048h.jpg)
+
+
+
+解析：[第 72 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/121)
+
+<br/>
+
+
+
+### 第 73 题： 介绍下 BFC、IFC、GFC 和 FFC
+
+解析：[第 73 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/122)
+
+<br/>
+
+
+
+### 第 74 题： 使用 JavaScript Proxy 实现简单的数据绑定
+
+解析：[第 74 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/123)
+
+<br/>
+
+
+
+### 第 75 题：数组里面有10万个数据，取第一个元素和第10万个元素的时间相差多少
+
+解析：[第 75 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/124)
+
+<br/>
+
+
+
+### 第 76 题：输出以下代码运行结果
+
+```js
+// example 1
+var a={}, b='123', c=123;  
+a[b]='b';
+a[c]='c';  
+console.log(a[b]);
+
+---------------------
+// example 2
+var a={}, b=Symbol('123'), c=Symbol('123');  
+a[b]='b';
+a[c]='c';  
+console.log(a[b]);
+
+---------------------
+// example 3
+var a={}, b={key:'123'}, c={key:'456'};  
+a[b]='b';
+a[c]='c';  
+console.log(a[b]);
+```
+
+解析：[第 76 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/125)
 
 <br/>
 

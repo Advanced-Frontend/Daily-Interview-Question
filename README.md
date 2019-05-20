@@ -11,6 +11,23 @@
 
 ## 今日面试题
 
+2019-05-21
+
+> 第 78 题：
+>
+> 
+
+
+
+欢迎在 Issue 区留下你的答案
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-05-20
 
 > 第 77 题：旋转数组算法题
@@ -38,92 +55,9 @@
 向右旋转 2 步: [3, 99, -1, -100]
 ```
 
-
-
-欢迎在 Issue 区留下你的答案
+解析：[第 77 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/126)
 
 <br/>
-
-
-
-
-## 本周汇总
-
-2019-05-17
-
-> 第 76 题：输出以下代码运行结果
-
-```js
-// example 1
-var a={}, b='123', c=123;  
-a[b]='b';
-a[c]='c';  
-console.log(a[b]);
-
----------------------
-// example 2
-var a={}, b=Symbol('123'), c=Symbol('123');  
-a[b]='b';
-a[c]='c';  
-console.log(a[b]);
-
----------------------
-// example 3
-var a={}, b={key:'123'}, c={key:'456'};  
-a[b]='b';
-a[c]='c';  
-console.log(a[b]);
-```
-
-解析：[第 76 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/125)
-
-<br/>
-
-
-
-2019-05-16
-
-> 第 75 题：数组里面有10万个数据，取第一个元素和第10万个元素的时间相差多少
-
-解析：[第 75 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/124)
-
-<br/>
-
-
-
-2019-05-15
-
-> 第 74 题： 使用 JavaScript Proxy 实现简单的数据绑定
-
-解析：[第 74 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/123)
-
-<br/>
-
-
-
-2019-05-14
-
-> 第 73 题： 介绍下 BFC、IFC、GFC 和 FFC
-
-解析：[第 73 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/122)
-
-<br/>
-
-
-
-2019-05-13
-
-> 第 72 题： 为什么普通 `for` 循环的性能远远高于 `forEach` 的性能，请解释其中的原因。
-
-![image-20190512225510941](https://ws2.sinaimg.cn/large/006tNc79gy1g2yxbg4ta8j31gh0u048h.jpg)
-
-
-
-解析：[第 72 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/121)
-
-<br/>
-
-
 
 
 
