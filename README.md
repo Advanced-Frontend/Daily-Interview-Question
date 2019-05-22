@@ -13,7 +13,7 @@
 
 2019-05-22
 
-> 第 79 题：input 搜索如何防抖，如何处理中文输入
+> 第 80 题：介绍下 Promise.all 使用、原理实现及错误处理
 >
 
 
@@ -26,6 +26,16 @@
 
 
 ## 本周汇总
+
+2019-05-22
+
+> 第 79 题：input 搜索如何防抖，如何处理中文输入
+
+解析：[第 79 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/129)
+
+<br/>
+
+
 
 2019-05-21
 
