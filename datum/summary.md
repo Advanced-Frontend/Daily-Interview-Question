@@ -79,6 +79,11 @@
   - [第 74 题： 使用 JavaScript Proxy 实现简单的数据绑定](#%E7%AC%AC-74-%E9%A2%98-%E4%BD%BF%E7%94%A8-javascript-proxy-%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A)
   - [第 75 题：数组里面有10万个数据，取第一个元素和第10万个元素的时间相差多少](#%E7%AC%AC-75-%E9%A2%98%E6%95%B0%E7%BB%84%E9%87%8C%E9%9D%A2%E6%9C%8910%E4%B8%87%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%8F%96%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E5%92%8C%E7%AC%AC10%E4%B8%87%E4%B8%AA%E5%85%83%E7%B4%A0%E7%9A%84%E6%97%B6%E9%97%B4%E7%9B%B8%E5%B7%AE%E5%A4%9A%E5%B0%91)
   - [第 76 题：输出以下代码运行结果](#%E7%AC%AC-76-%E9%A2%98%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B%E4%BB%A3%E7%A0%81%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C)
+  - [第 77 题：算法题「旋转数组」](#%E7%AC%AC-77-%E9%A2%98%E7%AE%97%E6%B3%95%E9%A2%98%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84)
+  - [第 78 题：Vue 的父组件和子组件生命周期钩子执行顺序是什么](#%E7%AC%AC-78-%E9%A2%98vue-%E7%9A%84%E7%88%B6%E7%BB%84%E4%BB%B6%E5%92%8C%E5%AD%90%E7%BB%84%E4%BB%B6%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E9%92%A9%E5%AD%90%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F%E6%98%AF%E4%BB%80%E4%B9%88)
+  - [第 79 题：input 搜索如何防抖，如何处理中文输入](#%E7%AC%AC-79-%E9%A2%98input-%E6%90%9C%E7%B4%A2%E5%A6%82%E4%BD%95%E9%98%B2%E6%8A%96%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5)
+  - [第 80 题：介绍下 Promise.all 使用、原理实现及错误处理](#%E7%AC%AC-80-%E9%A2%98%E4%BB%8B%E7%BB%8D%E4%B8%8B-promiseall-%E4%BD%BF%E7%94%A8%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0%E5%8F%8A%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86)
+  - [第 81 题：打印出 1 - 10000 之间的所有对称数](#%E7%AC%AC-81-%E9%A2%98%E6%89%93%E5%8D%B0%E5%87%BA-1---10000-%E4%B9%8B%E9%97%B4%E7%9A%84%E6%89%80%E6%9C%89%E5%AF%B9%E7%A7%B0%E6%95%B0)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -893,6 +898,71 @@ console.log(a[b]);
 ```
 
 解析：[第 76 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/125)
+
+<br/>
+
+
+
+### 第 77 题：算法题「旋转数组」
+
+> 给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。
+
+示例 1：
+
+```js
+输入: [1, 2, 3, 4, 5, 6, 7] 和 k = 3
+输出: [5, 6, 7, 1, 2, 3, 4]
+解释:
+向右旋转 1 步: [7, 1, 2, 3, 4, 5, 6]
+向右旋转 2 步: [6, 7, 1, 2, 3, 4, 5]
+向右旋转 3 步: [5, 6, 7, 1, 2, 3, 4]
+```
+
+示例 2：
+
+```js
+输入: [-1, -100, 3, 99] 和 k = 2
+输出: [3, 99, -1, -100]
+解释: 
+向右旋转 1 步: [99, -1, -100, 3]
+向右旋转 2 步: [3, 99, -1, -100]
+```
+
+解析：[第 77 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/126)
+
+<br/>
+
+
+
+### 第 78 题：Vue 的父组件和子组件生命周期钩子执行顺序是什么
+
+解析：[第 78 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/128)
+
+<br/>
+
+
+
+### 第 79 题：input 搜索如何防抖，如何处理中文输入
+
+解析：[第 79 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/129)
+
+<br/>
+
+
+
+### 第 80 题：介绍下 Promise.all 使用、原理实现及错误处理
+
+解析：[第 80 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/130)
+
+<br/>
+
+
+
+### 第 81 题：打印出 1 - 10000 之间的所有对称数
+
+> 例如：121、1331 等
+
+解析：[第 81 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/131)
 
 <br/>
 
