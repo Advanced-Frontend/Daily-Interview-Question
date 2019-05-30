@@ -11,13 +11,22 @@
 
 ## 今日面试题
 
-2019-05-28
+2019-05-30
 
-> 第 83 题：var、let 和 const 区别的实现原理是什么
+> 第 84 题：请实现一个 add 函数，满足以下功能。
+>
+> ```js
+> add(1); 			// 1
+> add(1)(2);  	// 3
+> add(1)(2)(3)；// 6
+> add(1)(2, 3); // 6
+> add(1, 2)(3); // 6
+> add(1, 2, 3); // 6
+> ```
 
 
 
-欢迎在 Issue 区留下你的答案，欢迎 PR 你认为不错的面试题
+解析：[第 84 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/134)
 
 <br/>
 
@@ -25,6 +34,16 @@
 
 
 ## 本周汇总
+
+2019-05-28
+
+> 第 83 题：var、let 和 const 区别的实现原理是什么
+
+解析：[第 83 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/133)
+
+<br/>
+
+
 
 2019-05-27
 
