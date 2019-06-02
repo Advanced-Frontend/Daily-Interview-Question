@@ -84,6 +84,10 @@
   - [第 79 题：input 搜索如何防抖，如何处理中文输入](#%E7%AC%AC-79-%E9%A2%98input-%E6%90%9C%E7%B4%A2%E5%A6%82%E4%BD%95%E9%98%B2%E6%8A%96%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5)
   - [第 80 题：介绍下 Promise.all 使用、原理实现及错误处理](#%E7%AC%AC-80-%E9%A2%98%E4%BB%8B%E7%BB%8D%E4%B8%8B-promiseall-%E4%BD%BF%E7%94%A8%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0%E5%8F%8A%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86)
   - [第 81 题：打印出 1 - 10000 之间的所有对称数](#%E7%AC%AC-81-%E9%A2%98%E6%89%93%E5%8D%B0%E5%87%BA-1---10000-%E4%B9%8B%E9%97%B4%E7%9A%84%E6%89%80%E6%9C%89%E5%AF%B9%E7%A7%B0%E6%95%B0)
+  - [第 82 题：周一算法题之「移动零」](#%E7%AC%AC-82-%E9%A2%98%E5%91%A8%E4%B8%80%E7%AE%97%E6%B3%95%E9%A2%98%E4%B9%8B%E7%A7%BB%E5%8A%A8%E9%9B%B6)
+  - [第 83 题：var、let 和 const 区别的实现原理是什么](#%E7%AC%AC-83-%E9%A2%98varlet-%E5%92%8C-const-%E5%8C%BA%E5%88%AB%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E6%98%AF%E4%BB%80%E4%B9%88)
+  - [第 84 题：请实现一个 add 函数，满足以下功能。](#%E7%AC%AC-84-%E9%A2%98%E8%AF%B7%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA-add-%E5%87%BD%E6%95%B0%E6%BB%A1%E8%B6%B3%E4%BB%A5%E4%B8%8B%E5%8A%9F%E8%83%BD)
+  - [第 85 题：react-router 里的 `<Link>` 标签和 `<a>` 标签有什么区别](#%E7%AC%AC-85-%E9%A2%98react-router-%E9%87%8C%E7%9A%84-link-%E6%A0%87%E7%AD%BE%E5%92%8C-a-%E6%A0%87%E7%AD%BE%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -963,6 +967,64 @@ console.log(a[b]);
 > 例如：121、1331 等
 
 解析：[第 81 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/131)
+
+<br/>
+
+
+
+### 第 82 题：周一算法题之「移动零」
+
+> 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
+>
+> 示例:
+>
+> ```
+> 输入: [0,1,0,3,12]
+> 输出: [1,3,12,0,0]
+> ```
+>
+> 说明:
+>
+> 1. 必须在原数组上操作，不能拷贝额外的数组。
+>
+> 1. 尽量减少操作次数。
+
+解析：[第 82 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/132)
+
+<br/>
+
+
+
+### 第 83 题：var、let 和 const 区别的实现原理是什么
+
+解析：[第 83 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/133)
+
+<br/>
+
+
+
+### 第 84 题：请实现一个 add 函数，满足以下功能。
+
+> ```js
+> add(1); 			// 1
+> add(1)(2);  	// 3
+> add(1)(2)(3)；// 6
+> add(1)(2, 3); // 6
+> add(1, 2)(3); // 6
+> add(1, 2, 3); // 6
+> ```
+
+解析：[第 84 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/134)
+
+<br/>
+
+
+
+### 第 85 题：react-router 里的 `<Link>` 标签和 `<a>` 标签有什么区别
+
+> 如何禁掉 `<a>` 标签默认事件，禁掉之后如何实现跳转。
+
+解析：[第 85 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/135)
 
 <br/>
 

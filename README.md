@@ -11,13 +11,24 @@
 
 ## 今日面试题
 
-2019-05-31
+2019-06-03
 
-> 第 85 题：react-router 里的 `<Link>` 标签和 `<a>` 标签有什么区别，如何禁掉 `<a>` 标签默认事件，禁掉之后如何实现跳转。
+> 第 86 题：周一算法题之「两数之和」
 
+给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
 
+你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。
 
-解析：[第 85 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/135)
+示例：
+
+```js
+给定 nums = [2, 7, 11, 15], target = 9
+
+因为 nums[0] + nums[1] = 2 + 7 = 9
+所以返回 [0, 1]
+```
+
+解析：[第 86 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/136)
 
 <br/>
 
@@ -25,60 +36,6 @@
 
 
 ## 本周汇总
-
-2019-05-30
-
-> 第 84 题：请实现一个 add 函数，满足以下功能。
->
-> ```js
-> add(1); 			// 1
-> add(1)(2);  	// 3
-> add(1)(2)(3)；// 6
-> add(1)(2, 3); // 6
-> add(1, 2)(3); // 6
-> add(1, 2, 3); // 6
-> ```
-
-
-
-解析：[第 84 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/134)
-
-<br/>
-
-
-
-2019-05-28
-
-> 第 83 题：var、let 和 const 区别的实现原理是什么
-
-解析：[第 83 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/133)
-
-<br/>
-
-
-
-2019-05-27
-
-> 第 82 题：算法题「移动零」
->
-> 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
->
-> 示例:
->
-> ```
-> 输入: [0,1,0,3,12]
-> 输出: [1,3,12,0,0]
-> ```
->
-> 说明:
->
-> 1. 必须在原数组上操作，不能拷贝额外的数组。
->
-> 1. 尽量减少操作次数。
-
-
-
-解析：[第 82 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/132)
 
 <br/>
 
