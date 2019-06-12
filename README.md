@@ -11,6 +11,19 @@
 
 ## 今日面试题
 
+2019-06-13
+
+> 第 89 题：设计并实现 Promise.race()
+
+解析：[第 89 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/140)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-06-12
 
 > 第 88 题：实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度
@@ -72,16 +85,11 @@ let result = [
 ];
 ```
 
-
-
 解析：[第 88 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/139)
 
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-06-11
 
