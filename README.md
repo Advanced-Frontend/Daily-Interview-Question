@@ -11,13 +11,13 @@
 
 ## 今日面试题
 
-2019-06-24
+2019-06-28
 
-> 第 94 题：vue 在 v-for 时给每项元素绑定事件需要用事件代理吗？为什么？
+> 第 95 题：React 中类组件和函数组件区别是什么，为什么
 
 
 
-解析：[第 94 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/145)
+解析：[第 95 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/148)
 
 <br/>
 
@@ -25,6 +25,16 @@
 
 
 ## 本周汇总
+
+2019-06-24
+
+> 第 94 题：vue 在 v-for 时给每项元素绑定事件需要用事件代理吗？为什么？
+
+解析：[第 94 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/145)
+
+<br/>
+
+
 
 2019-06-21
 
