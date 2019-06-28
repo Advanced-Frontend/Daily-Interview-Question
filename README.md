@@ -17,7 +17,7 @@
 
 
 
-解析：[第 95 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/146)
+解析：[第 95 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/148)
 
 <br/>
 
