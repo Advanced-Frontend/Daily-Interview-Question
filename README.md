@@ -11,6 +11,32 @@
 
 ## 今日面试题
 
+2019-07-04
+
+> 第 98 题：写出如下代码的打印结果
+
+```js
+function changeObjProperty(o) {
+  o.siteUrl = "http://www.baidu.com"
+  o = new Object()
+  o.siteUrl = "http://www.google.com"
+} 
+let webSite = new Object();
+changeObjProperty(webSite);
+console.log(webSite.siteUrl);
+```
+
+公司：京东
+
+解析：[第 98 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/152)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-07-02
 
 > 第 97 题：React 和 Vue 的 diff 时间复杂度从 O(n^3) 优化到 O(n) ，那么 O(n^3) 和 O(n) 是如何计算出来的？
@@ -22,9 +48,6 @@
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-07-01
 

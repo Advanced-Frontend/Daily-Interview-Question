@@ -200,6 +200,8 @@ console.log('script end');
 
 解析：[第 10 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/7)
 
+公司：头条
+
 <br/>
 
 
@@ -500,6 +502,8 @@ if(a == 1 && a == 2 && a == 3){
 
 解析：[第 38 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/57)
 
+公司：京东
+
 <br/>
 
 
@@ -625,6 +629,8 @@ console.log(obj)
 > 例： 5 + 3 - 2，结果为 6
 
 解析：[第 50 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/88)
+
+公司：百度
 
 <br/>
 
@@ -1046,6 +1052,8 @@ console.log(a[b]);
 ```
 
 解析：[第 86 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/136)
+
+公司：京东、快手
 
 <br/>
 
