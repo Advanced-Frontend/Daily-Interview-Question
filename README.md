@@ -11,6 +11,44 @@
 
 ## 今日面试题
 
+2019-07-08
+
+> 第 100 题：请写出如下代码的打印结果
+>
+> ```js
+> function Foo() {
+>     Foo.a = function() {
+>         console.log(1)
+>     }
+>     this.a = function() {
+>         console.log(2)
+>     }
+> }
+> Foo.prototype.a = function() {
+>     console.log(3)
+> }
+> Foo.a = function() {
+>     console.log(4)
+> }
+> Foo.a();
+> let obj = new Foo();
+> obj.a();
+> Foo.a();
+> ```
+
+
+
+公司：京东
+
+解析：[第 100 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/155)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-07-05
 
 > 第 99 题：编程算法题
@@ -26,9 +64,6 @@
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-07-04
 
