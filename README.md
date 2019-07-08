@@ -11,6 +11,42 @@
 
 ## 今日面试题
 
+2019-07-09
+
+> 第 101 题：修改以下 print 函数，使之输出 0 到 99，或者 99 到 0
+>
+> 要求：
+>
+> 1、只能修改 `setTimeout` 到 `Math.floor(Math.random() * 1000` 的代码
+>
+> 2、不能修改 `Math.floor(Math.random() * 1000`
+>
+> 3、不能使用全局变量
+>
+> ```js
+> function print(n){
+>   setTimeout(() => {
+>     console.log(n);
+>   }, Math.floor(Math.random() * 1000));
+> }
+> for(var i = 0; i < 100; i++){
+>   print(i);
+> }
+> ```
+
+
+
+公司：头条
+
+解析：[第 101 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/158)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-07-08
 
 > 第 100 题：请写出如下代码的打印结果
@@ -41,70 +77,6 @@
 公司：京东
 
 解析：[第 100 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/155)
-
-<br/>
-
-
-
-
-## 本周汇总
-
-2019-07-05
-
-> 第 99 题：编程算法题
->
-> 用 JavaScript 写一个函数，输入 int 型，返回整数逆序后的字符串。如：输入整型 1234，返回字符串“4321”。要求必须使用递归函数调用，不能用全局变量，输入函数必须只有一个参数传入，必须返回字符串。
-
-
-
-公司：bilibili
-
-解析：[第 99 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/153)
-
-<br/>
-
-
-
-2019-07-04
-
-> 第 98 题：写出如下代码的打印结果
-
-```js
-function changeObjProperty(o) {
-  o.siteUrl = "http://www.baidu.com"
-  o = new Object()
-  o.siteUrl = "http://www.google.com"
-} 
-let webSite = new Object();
-changeObjProperty(webSite);
-console.log(webSite.siteUrl);
-```
-
-公司：京东
-
-解析：[第 98 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/152)
-
-<br/>
-
-
-
-2019-07-02
-
-> 第 97 题：React 和 Vue 的 diff 时间复杂度从 O(n^3) 优化到 O(n) ，那么 O(n^3) 和 O(n) 是如何计算出来的？
-
-
-
-解析：[第 97 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/151)
-
-<br/>
-
-
-
-2019-07-01
-
-> 第 96 题：介绍下前端加密的常见场景和方法
-
-解析：[第 96 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/150)
 
 <br/>
 

@@ -98,6 +98,10 @@
   - [第 93 题：给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。请找出这两个有序数组的中位数。要求算法的时间复杂度为 O(log(m+n))。](#%E7%AC%AC-93-%E9%A2%98%E7%BB%99%E5%AE%9A%E4%B8%A4%E4%B8%AA%E5%A4%A7%E5%B0%8F%E4%B8%BA-m-%E5%92%8C-n-%E7%9A%84%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84-nums1-%E5%92%8C-nums2%E8%AF%B7%E6%89%BE%E5%87%BA%E8%BF%99%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0%E8%A6%81%E6%B1%82%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%B8%BA-ologmn)
   - [第 94 题：vue 在 v-for 时给每项元素绑定事件需要用事件代理吗？为什么？](#%E7%AC%AC-94-%E9%A2%98vue-%E5%9C%A8-v-for-%E6%97%B6%E7%BB%99%E6%AF%8F%E9%A1%B9%E5%85%83%E7%B4%A0%E7%BB%91%E5%AE%9A%E4%BA%8B%E4%BB%B6%E9%9C%80%E8%A6%81%E7%94%A8%E4%BA%8B%E4%BB%B6%E4%BB%A3%E7%90%86%E5%90%97%E4%B8%BA%E4%BB%80%E4%B9%88)
   - [第 95 题：模拟实现一个深拷贝，并考虑对象相互引用以及 Symbol 拷贝的情况](#%E7%AC%AC-95-%E9%A2%98%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%B9%B6%E8%80%83%E8%99%91%E5%AF%B9%E8%B1%A1%E7%9B%B8%E4%BA%92%E5%BC%95%E7%94%A8%E4%BB%A5%E5%8F%8A-symbol-%E6%8B%B7%E8%B4%9D%E7%9A%84%E6%83%85%E5%86%B5)
+  - [第 96 题：介绍下前端加密的常见场景和方法](#%E7%AC%AC-96-%E9%A2%98%E4%BB%8B%E7%BB%8D%E4%B8%8B%E5%89%8D%E7%AB%AF%E5%8A%A0%E5%AF%86%E7%9A%84%E5%B8%B8%E8%A7%81%E5%9C%BA%E6%99%AF%E5%92%8C%E6%96%B9%E6%B3%95)
+  - [第 97 题：React 和 Vue 的 diff 时间复杂度从 O(n^3) 优化到 O(n) ，那么 O(n^3) 和 O(n) 是如何计算出来的？](#%E7%AC%AC-97-%E9%A2%98react-%E5%92%8C-vue-%E7%9A%84-diff-%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%BB%8E-on%5E3-%E4%BC%98%E5%8C%96%E5%88%B0-on-%E9%82%A3%E4%B9%88-on%5E3-%E5%92%8C-on-%E6%98%AF%E5%A6%82%E4%BD%95%E8%AE%A1%E7%AE%97%E5%87%BA%E6%9D%A5%E7%9A%84)
+  - [第 98 题：写出如下代码的打印结果](#%E7%AC%AC-98-%E9%A2%98%E5%86%99%E5%87%BA%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%93%E5%8D%B0%E7%BB%93%E6%9E%9C)
+  - [第 99 题：编程算法题](#%E7%AC%AC-99-%E9%A2%98%E7%BC%96%E7%A8%8B%E7%AE%97%E6%B3%95%E9%A2%98)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -110,6 +114,8 @@
 
 
 ### 第 1 题：写 React / Vue 项目时为什么要在列表组件中写 key，其作用是什么？
+
+公司：滴滴、饿了么
 
 解析：[第 1 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/1)
 
@@ -126,6 +132,8 @@
 
 
 ### 第 3 题：什么是防抖和节流？有什么区别？如何实现？
+
+公司：挖财
 
 解析：[第 3 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/5)
 
@@ -175,7 +183,9 @@
 
 ### 第 9 题：Async/Await 如何通过同步的方式实现异步
 
-欢迎在 Issue 区留下你的答案。
+公司：头条、微医
+
+解析：[第 9 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/156)
 
 <br/>
 
@@ -224,6 +234,8 @@ console.log('script end');
 >
 > 编写一个程序将数组扁平化去并除其中重复部分数据，最终得到一个升序且不重复的数组
 
+公司：携程
+
 解析：[第 11 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/8)
 
 <br/>
@@ -231,6 +243,8 @@ console.log('script end');
 
 
 ### 第 12 题：JS 异步解决方案的发展历程以及优缺点。
+
+公司：滴滴、挖财、微医、海康
 
 解析：[第 12 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/11)
 
@@ -240,6 +254,8 @@ console.log('script end');
 
 ### 第 13 题：Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？
 
+公司：微医
+
 解析：[第 13 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/19)
 
 <br/>
@@ -248,6 +264,8 @@ console.log('script end');
 
 ### 第 14 题：情人节福利题，如何实现一个 new
 
+公司：兑吧
+
 解析：[第 14 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/12)
 
 <br/>
@@ -255,6 +273,8 @@ console.log('script end');
 
 
 ### 第 15 题：简单讲解一下http2的多路复用
+
+公司：网易
 
 解析：[第 15 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/14)
 
@@ -281,6 +301,8 @@ console.log('script end');
 
 
 ### 第 18 题：React 中 setState 什么时候是同步的，什么时候是异步的？
+
+公司：微医
 
 解析：[第 18 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/17)
 
@@ -1210,8 +1232,6 @@ nums2 = [3, 4]
 
 中位数是(2 + 3) / 2 = 2.5
 
-
-
 解析：[第 93 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/144)
 
 <br/>
@@ -1229,6 +1249,55 @@ nums2 = [3, 4]
 ### 第 95 题：模拟实现一个深拷贝，并考虑对象相互引用以及 Symbol 拷贝的情况
 
 解析：[第 95 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/148)
+
+<br/>
+
+
+
+### 第 96 题：介绍下前端加密的常见场景和方法
+
+解析：[第 96 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/150)
+
+<br/>
+
+
+
+### 第 97 题：React 和 Vue 的 diff 时间复杂度从 O(n^3) 优化到 O(n) ，那么 O(n^3) 和 O(n) 是如何计算出来的？
+
+解析：[第 97 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/151)
+
+<br/>
+
+
+
+### 第 98 题：写出如下代码的打印结果
+
+```js
+function changeObjProperty(o) {
+  o.siteUrl = "http://www.baidu.com"
+  o = new Object()
+  o.siteUrl = "http://www.google.com"
+} 
+let webSite = new Object();
+changeObjProperty(webSite);
+console.log(webSite.siteUrl);
+```
+
+公司：京东
+
+解析：[第 98 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/152)
+
+<br/>
+
+
+
+### 第 99 题：编程算法题
+
+> 用 JavaScript 写一个函数，输入 int 型，返回整数逆序后的字符串。如：输入整型 1234，返回字符串“4321”。要求必须使用递归函数调用，不能用全局变量，输入函数必须只有一个参数传入，必须返回字符串。
+
+公司：bilibili
+
+解析：[第 99 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/153)
 
 <br/>
 
