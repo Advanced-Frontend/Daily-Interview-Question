@@ -11,13 +11,34 @@
 
 ## 今日面试题
 
-2019-07-01
+2019-07-09
 
-> 第 96 题：介绍下前端加密的常见场景和方法
+> 第 101 题：修改以下 print 函数，使之输出 0 到 99，或者 99 到 0
+>
+> 要求：
+>
+> 1、只能修改 `setTimeout` 到 `Math.floor(Math.random() * 1000` 的代码
+>
+> 2、不能修改 `Math.floor(Math.random() * 1000`
+>
+> 3、不能使用全局变量
+>
+> ```js
+> function print(n){
+>   setTimeout(() => {
+>     console.log(n);
+>   }, Math.floor(Math.random() * 1000));
+> }
+> for(var i = 0; i < 100; i++){
+>   print(i);
+> }
+> ```
 
 
 
-解析：[第 96 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/150)
+公司：头条
+
+解析：[第 101 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/158)
 
 <br/>
 
@@ -26,7 +47,38 @@
 
 ## 本周汇总
 
+2019-07-08
 
+> 第 100 题：请写出如下代码的打印结果
+>
+> ```js
+> function Foo() {
+>     Foo.a = function() {
+>         console.log(1)
+>     }
+>     this.a = function() {
+>         console.log(2)
+>     }
+> }
+> Foo.prototype.a = function() {
+>     console.log(3)
+> }
+> Foo.a = function() {
+>     console.log(4)
+> }
+> Foo.a();
+> let obj = new Foo();
+> obj.a();
+> Foo.a();
+> ```
+
+
+
+公司：京东
+
+解析：[第 100 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/155)
+
+<br/>
 
 
 
