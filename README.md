@@ -11,13 +11,13 @@
 
 ## 今日面试题
 
-2019-06-01
+2019-07-15
 
->第 86 题: 
+> 第 105 题：编程题
 
 url有三种情况
 
-```
+```js
 https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=&local_province_id=33
 https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=800&local_province_id=33
 https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=800,700&local_province_id=33
@@ -25,27 +25,12 @@ https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=800,700&local_pr
 
 匹配elective后的数字输出（写出你认为的最优解法）:
 
-```
+```js
 [] || ['800'] || ['800','700']
 
 ```
 
-> 第 86 题：周一算法题之「两数之和」
-
-给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
-
-你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。
-
-示例：
-
-```js
-给定 nums = [2, 7, 11, 15], target = 9
-
-因为 nums[0] + nums[1] = 2 + 7 = 9
-所以返回 [0, 1]
-```
-
-解析：[第 86 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/136)
+解析：[第 105 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/177)
 
 <br/>
 
@@ -54,13 +39,110 @@ https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=800,700&local_pr
 
 ## 本周汇总
 
+2019-07-12
+
+> 第 104 题：模拟 localStorage 时如何实现过期时间功能
+
+公司：阿里
+
+解析：[第 104 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/171)
+
+<br/>
+
+
+2019-07-11
+
+> 第 103 题：模拟实现一个 localStorage
+
+公司：阿里
+
+解析：[第 103 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/166)
+
 <br/>
 
 
 
-## 历史汇总
+2019-07-10
 
--   [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
+> 第 102 题：不用加减乘除运算符，求整数的7倍
+
+解析：[第 102 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/161)
+
+<br/>
+
+
+
+2019-07-09
+
+> 第 101 题：修改以下 print 函数，使之输出 0 到 99，或者 99 到 0
+>
+> 要求：
+>
+> 1、只能修改 `setTimeout` 到 `Math.floor(Math.random() * 1000` 的代码
+>
+> 2、不能修改 `Math.floor(Math.random() * 1000`
+>
+> 3、不能使用全局变量
+>
+> ```js
+> function print(n){
+>   setTimeout(() => {
+>     console.log(n);
+>   }, Math.floor(Math.random() * 1000));
+> }
+> for(var i = 0; i < 100; i++){
+>   print(i);
+> }
+> ```
+
+
+
+公司：头条
+
+解析：[第 101 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/158)
+
+<br/>
+
+
+
+2019-07-08
+
+> 第 100 题：请写出如下代码的打印结果
+>
+> ```js
+> function Foo() {
+>     Foo.a = function() {
+>         console.log(1)
+>     }
+>     this.a = function() {
+>         console.log(2)
+>     }
+> }
+> Foo.prototype.a = function() {
+>     console.log(3)
+> }
+> Foo.a = function() {
+>     console.log(4)
+> }
+> Foo.a();
+> let obj = new Foo();
+> obj.a();
+> Foo.a();
+> ```
+
+
+
+公司：京东
+
+解析：[第 100 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/155)
+
+<br/>
+
+
+
+## 所有面试题汇总
+
+-   [壹题所有题目及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
 
 <br/>
 
@@ -68,6 +150,7 @@ https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=800,700&local_pr
 
 ## 半月刊
 
+- [前端 100 问：能搞懂 80% 的请把简历给我](https://juejin.im/post/5d23e750f265da1b855c7bbe)
 - [【半月刊 1】前端高频面试题及答案汇总](https://juejin.im/post/5c6977e46fb9a049fd1063dc)
 - [【半月刊 2】前端高频面试题及答案汇总](https://juejin.im/post/5c7bd72ef265da2de80f7f17)
 - [【半月刊 3】前端高频面试题及答案汇总](https://juejin.im/post/5c9ac3f66fb9a070e056718f)

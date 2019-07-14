@@ -88,6 +88,20 @@
   - [第 83 题：var、let 和 const 区别的实现原理是什么](#%E7%AC%AC-83-%E9%A2%98varlet-%E5%92%8C-const-%E5%8C%BA%E5%88%AB%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E6%98%AF%E4%BB%80%E4%B9%88)
   - [第 84 题：请实现一个 add 函数，满足以下功能。](#%E7%AC%AC-84-%E9%A2%98%E8%AF%B7%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA-add-%E5%87%BD%E6%95%B0%E6%BB%A1%E8%B6%B3%E4%BB%A5%E4%B8%8B%E5%8A%9F%E8%83%BD)
   - [第 85 题：react-router 里的 `<Link>` 标签和 `<a>` 标签有什么区别](#%E7%AC%AC-85-%E9%A2%98react-router-%E9%87%8C%E7%9A%84-link-%E6%A0%87%E7%AD%BE%E5%92%8C-a-%E6%A0%87%E7%AD%BE%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB)
+  - [第 86 题：周一算法题之「两数之和」](#%E7%AC%AC-86-%E9%A2%98%E5%91%A8%E4%B8%80%E7%AE%97%E6%B3%95%E9%A2%98%E4%B9%8B%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C)
+  - [第 87 题：在输入框中如何判断输入的是一个正确的网址。](#%E7%AC%AC-87-%E9%A2%98%E5%9C%A8%E8%BE%93%E5%85%A5%E6%A1%86%E4%B8%AD%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E8%BE%93%E5%85%A5%E7%9A%84%E6%98%AF%E4%B8%80%E4%B8%AA%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BD%91%E5%9D%80)
+  - [第 88 题：实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度](#%E7%AC%AC-88-%E9%A2%98%E5%AE%9E%E7%8E%B0-convert-%E6%96%B9%E6%B3%95%E6%8A%8A%E5%8E%9F%E5%A7%8B-list-%E8%BD%AC%E6%8D%A2%E6%88%90%E6%A0%91%E5%BD%A2%E7%BB%93%E6%9E%84%E8%A6%81%E6%B1%82%E5%B0%BD%E5%8F%AF%E8%83%BD%E9%99%8D%E4%BD%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6)
+  - [第 89 题：设计并实现 Promise.race()](#%E7%AC%AC-89-%E9%A2%98%E8%AE%BE%E8%AE%A1%E5%B9%B6%E5%AE%9E%E7%8E%B0-promiserace)
+  - [第 90 题：实现模糊搜索结果的关键词高亮显示](#%E7%AC%AC-90-%E9%A2%98%E5%AE%9E%E7%8E%B0%E6%A8%A1%E7%B3%8A%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E7%9A%84%E5%85%B3%E9%94%AE%E8%AF%8D%E9%AB%98%E4%BA%AE%E6%98%BE%E7%A4%BA)
+  - [第 91 题：介绍下 HTTPS 中间人攻击](#%E7%AC%AC-91-%E9%A2%98%E4%BB%8B%E7%BB%8D%E4%B8%8B-https-%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB)
+  - [第 92 题：已知数据格式，实现一个函数 fn 找出链条中所有的父级 id](#%E7%AC%AC-92-%E9%A2%98%E5%B7%B2%E7%9F%A5%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0-fn-%E6%89%BE%E5%87%BA%E9%93%BE%E6%9D%A1%E4%B8%AD%E6%89%80%E6%9C%89%E7%9A%84%E7%88%B6%E7%BA%A7-id)
+  - [第 93 题：给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。请找出这两个有序数组的中位数。要求算法的时间复杂度为 O(log(m+n))。](#%E7%AC%AC-93-%E9%A2%98%E7%BB%99%E5%AE%9A%E4%B8%A4%E4%B8%AA%E5%A4%A7%E5%B0%8F%E4%B8%BA-m-%E5%92%8C-n-%E7%9A%84%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84-nums1-%E5%92%8C-nums2%E8%AF%B7%E6%89%BE%E5%87%BA%E8%BF%99%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0%E8%A6%81%E6%B1%82%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%B8%BA-ologmn)
+  - [第 94 题：vue 在 v-for 时给每项元素绑定事件需要用事件代理吗？为什么？](#%E7%AC%AC-94-%E9%A2%98vue-%E5%9C%A8-v-for-%E6%97%B6%E7%BB%99%E6%AF%8F%E9%A1%B9%E5%85%83%E7%B4%A0%E7%BB%91%E5%AE%9A%E4%BA%8B%E4%BB%B6%E9%9C%80%E8%A6%81%E7%94%A8%E4%BA%8B%E4%BB%B6%E4%BB%A3%E7%90%86%E5%90%97%E4%B8%BA%E4%BB%80%E4%B9%88)
+  - [第 95 题：模拟实现一个深拷贝，并考虑对象相互引用以及 Symbol 拷贝的情况](#%E7%AC%AC-95-%E9%A2%98%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%B9%B6%E8%80%83%E8%99%91%E5%AF%B9%E8%B1%A1%E7%9B%B8%E4%BA%92%E5%BC%95%E7%94%A8%E4%BB%A5%E5%8F%8A-symbol-%E6%8B%B7%E8%B4%9D%E7%9A%84%E6%83%85%E5%86%B5)
+  - [第 96 题：介绍下前端加密的常见场景和方法](#%E7%AC%AC-96-%E9%A2%98%E4%BB%8B%E7%BB%8D%E4%B8%8B%E5%89%8D%E7%AB%AF%E5%8A%A0%E5%AF%86%E7%9A%84%E5%B8%B8%E8%A7%81%E5%9C%BA%E6%99%AF%E5%92%8C%E6%96%B9%E6%B3%95)
+  - [第 97 题：React 和 Vue 的 diff 时间复杂度从 O(n^3) 优化到 O(n) ，那么 O(n^3) 和 O(n) 是如何计算出来的？](#%E7%AC%AC-97-%E9%A2%98react-%E5%92%8C-vue-%E7%9A%84-diff-%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%BB%8E-on%5E3-%E4%BC%98%E5%8C%96%E5%88%B0-on-%E9%82%A3%E4%B9%88-on%5E3-%E5%92%8C-on-%E6%98%AF%E5%A6%82%E4%BD%95%E8%AE%A1%E7%AE%97%E5%87%BA%E6%9D%A5%E7%9A%84)
+  - [第 98 题：写出如下代码的打印结果](#%E7%AC%AC-98-%E9%A2%98%E5%86%99%E5%87%BA%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%93%E5%8D%B0%E7%BB%93%E6%9E%9C)
+  - [第 99 题：编程算法题](#%E7%AC%AC-99-%E9%A2%98%E7%BC%96%E7%A8%8B%E7%AE%97%E6%B3%95%E9%A2%98)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -100,6 +114,8 @@
 
 
 ### 第 1 题：写 React / Vue 项目时为什么要在列表组件中写 key，其作用是什么？
+
+公司：滴滴、饿了么
 
 解析：[第 1 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/1)
 
@@ -116,6 +132,8 @@
 
 
 ### 第 3 题：什么是防抖和节流？有什么区别？如何实现？
+
+公司：挖财
 
 解析：[第 3 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/5)
 
@@ -165,7 +183,9 @@
 
 ### 第 9 题：Async/Await 如何通过同步的方式实现异步
 
-欢迎在 Issue 区留下你的答案。
+公司：头条、微医
+
+解析：[第 9 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/156)
 
 <br/>
 
@@ -200,6 +220,8 @@ console.log('script end');
 
 解析：[第 10 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/7)
 
+公司：头条
+
 <br/>
 
 
@@ -212,6 +234,8 @@ console.log('script end');
 >
 > 编写一个程序将数组扁平化去并除其中重复部分数据，最终得到一个升序且不重复的数组
 
+公司：携程
+
 解析：[第 11 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/8)
 
 <br/>
@@ -219,6 +243,8 @@ console.log('script end');
 
 
 ### 第 12 题：JS 异步解决方案的发展历程以及优缺点。
+
+公司：滴滴、挖财、微医、海康
 
 解析：[第 12 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/11)
 
@@ -228,6 +254,8 @@ console.log('script end');
 
 ### 第 13 题：Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？
 
+公司：微医
+
 解析：[第 13 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/19)
 
 <br/>
@@ -236,6 +264,8 @@ console.log('script end');
 
 ### 第 14 题：情人节福利题，如何实现一个 new
 
+公司：兑吧
+
 解析：[第 14 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/12)
 
 <br/>
@@ -243,6 +273,8 @@ console.log('script end');
 
 
 ### 第 15 题：简单讲解一下http2的多路复用
+
+公司：网易
 
 解析：[第 15 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/14)
 
@@ -269,6 +301,8 @@ console.log('script end');
 
 
 ### 第 18 题：React 中 setState 什么时候是同步的，什么时候是异步的？
+
+公司：微医
 
 解析：[第 18 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/17)
 
@@ -500,6 +534,8 @@ if(a == 1 && a == 2 && a == 3){
 
 解析：[第 38 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/57)
 
+公司：京东
+
 <br/>
 
 
@@ -625,6 +661,8 @@ console.log(obj)
 > 例： 5 + 3 - 2，结果为 6
 
 解析：[第 50 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/88)
+
+公司：百度
 
 <br/>
 
@@ -1025,6 +1063,241 @@ console.log(a[b]);
 > 如何禁掉 `<a>` 标签默认事件，禁掉之后如何实现跳转。
 
 解析：[第 85 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/135)
+
+<br/>
+
+
+
+### 第 86 题：周一算法题之「两数之和」
+
+给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
+
+你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。
+
+示例：
+
+```js
+给定 nums = [2, 7, 11, 15], target = 9
+
+因为 nums[0] + nums[1] = 2 + 7 = 9
+所以返回 [0, 1]
+```
+
+解析：[第 86 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/136)
+
+公司：京东、快手
+
+<br/>
+
+
+
+### 第 87 题：在输入框中如何判断输入的是一个正确的网址。
+
+解析：[第 87 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/138)
+
+<br/>
+
+
+
+### 第 88 题：实现 convert 方法，把原始 list 转换成树形结构，要求尽可能降低时间复杂度
+
+以下数据结构中，id 代表部门编号，name 是部门名称，parentId 是父部门编号，为 0 代表一级部门，现在要求实现一个 convert 方法，把原始 list 转换成树形结构，parentId 为多少就挂载在该 id 的属性 children 数组下，结构如下：
+
+```js
+// 原始 list 如下
+let list =[
+    {id:1,name:'部门A',parentId:0},
+    {id:2,name:'部门B',parentId:0},
+    {id:3,name:'部门C',parentId:1},
+    {id:4,name:'部门D',parentId:1},
+    {id:5,name:'部门E',parentId:2},
+    {id:6,name:'部门F',parentId:3},
+    {id:7,name:'部门G',parentId:2},
+    {id:8,name:'部门H',parentId:4}
+];
+const result = convert(list, ...);
+
+// 转换后的结果如下
+let result = [
+    {
+      id: 1,
+      name: '部门A',
+      parentId: 0,
+      children: [
+        {
+          id: 3,
+          name: '部门C',
+          parentId: 1,
+          children: [
+            {
+              id: 6,
+              name: '部门F',
+              parentId: 3
+            }, {
+              id: 16,
+              name: '部门L',
+              parentId: 3
+            }
+          ]
+        },
+        {
+          id: 4,
+          name: '部门D',
+          parentId: 1,
+          children: [
+            {
+              id: 8,
+              name: '部门H',
+              parentId: 4
+            }
+          ]
+        }
+      ]
+    },
+  ···
+];
+```
+
+解析：[第 88 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/139)
+
+<br/>
+
+
+
+### 第 89 题：设计并实现 Promise.race()
+
+解析：[第 89 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/140)
+
+<br/>
+
+
+
+### 第 90 题：实现模糊搜索结果的关键词高亮显示
+
+<img src="https://ws3.sinaimg.cn/large/006tNc79ly1g43dykaccuj30u01hc49s.jpg" height="800"/>
+
+解析：[第 90 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/141)
+
+<br/>
+
+
+
+### 第 91 题：介绍下 HTTPS 中间人攻击
+
+解析：[第 91 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/142)
+
+<br/>
+
+
+
+### 第 92 题：已知数据格式，实现一个函数 fn 找出链条中所有的父级 id
+
+> ```js
+> const value = '112'
+> const fn = (value) => {
+> ...
+> }
+> fn(value) // 输出 [1， 11， 112]
+> ```
+
+
+
+<img src="https://ws1.sinaimg.cn/large/006tNc79gy1g45a04ntttj30k20wen01.jpg" height="800"/>
+
+
+
+解析：[第 92 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/143)
+
+<br/>
+
+
+
+### 第 93 题：给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。请找出这两个有序数组的中位数。要求算法的时间复杂度为 O(log(m+n))。
+
+示例 1：
+
+```js
+nums1 = [1, 3]
+nums2 = [2]
+```
+
+中位数是 2.0
+
+示例 2：
+
+```js
+nums1 = [1, 2]
+nums2 = [3, 4]
+```
+
+中位数是(2 + 3) / 2 = 2.5
+
+解析：[第 93 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/144)
+
+<br/>
+
+
+
+### 第 94 题：vue 在 v-for 时给每项元素绑定事件需要用事件代理吗？为什么？
+
+解析：[第 94 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/145)
+
+<br/>
+
+
+
+### 第 95 题：模拟实现一个深拷贝，并考虑对象相互引用以及 Symbol 拷贝的情况
+
+解析：[第 95 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/148)
+
+<br/>
+
+
+
+### 第 96 题：介绍下前端加密的常见场景和方法
+
+解析：[第 96 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/150)
+
+<br/>
+
+
+
+### 第 97 题：React 和 Vue 的 diff 时间复杂度从 O(n^3) 优化到 O(n) ，那么 O(n^3) 和 O(n) 是如何计算出来的？
+
+解析：[第 97 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/151)
+
+<br/>
+
+
+
+### 第 98 题：写出如下代码的打印结果
+
+```js
+function changeObjProperty(o) {
+  o.siteUrl = "http://www.baidu.com"
+  o = new Object()
+  o.siteUrl = "http://www.google.com"
+} 
+let webSite = new Object();
+changeObjProperty(webSite);
+console.log(webSite.siteUrl);
+```
+
+公司：京东
+
+解析：[第 98 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/152)
+
+<br/>
+
+
+
+### 第 99 题：编程算法题
+
+> 用 JavaScript 写一个函数，输入 int 型，返回整数逆序后的字符串。如：输入整型 1234，返回字符串“4321”。要求必须使用递归函数调用，不能用全局变量，输入函数必须只有一个参数传入，必须返回字符串。
+
+公司：bilibili
+
+解析：[第 99 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/153)
 
 <br/>
 
