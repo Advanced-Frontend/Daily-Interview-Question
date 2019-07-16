@@ -11,6 +11,28 @@
 
 ## 今日面试题
 
+2019-07-16
+
+> 第 106 题：分别写出如下代码的返回值
+>
+> ```js
+> String('11') == new String('11');
+> String('11') === new String('11');
+> ```
+
+
+
+公司：京东
+
+解析：[第 106 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/180)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-07-15
 
 > 第 105 题：编程题
@@ -36,9 +58,6 @@
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-07-12
 
