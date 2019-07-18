@@ -11,6 +11,35 @@
 
 ## 今日面试题
 
+2019-07-18
+
+> 第 108 题：请写出如下代码的打印结果
+>
+> ```js
+> var name = 'Tom';
+> (function() {
+>     if (typeof name == 'undefined') {
+>         var name = 'Jack';
+>         console.log('Goodbye ' + name);
+>     } else {
+>         console.log('Hello ' + name);
+>     }
+> })();
+> ```
+
+
+
+公司：京东
+
+解析：[第 108 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/190)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-07-17
 
 > 第 107 题：考虑到性能问题，如何快速从一个巨大的数组中随机获取部分元素。
@@ -24,9 +53,6 @@
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-07-16
 
