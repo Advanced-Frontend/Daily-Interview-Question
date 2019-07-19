@@ -11,6 +11,35 @@
 
 ## 今日面试题
 
+2019-07-19
+
+> 第 109 题：扩展题，请写出如下代码的打印结果
+>
+> ```js
+> var name = 'Tom';
+> (function() {
+>     if (typeof name == 'undefined') {
+>         name = 'Jack';
+>         console.log('Goodbye ' + name);
+>     } else {
+>         console.log('Hello ' + name);
+>     }
+> })();
+> ```
+
+
+
+公司：京东
+
+解析：[第 109 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/198)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-07-18
 
 > 第 108 题：请写出如下代码的打印结果
@@ -36,9 +65,6 @@
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-07-17
 
