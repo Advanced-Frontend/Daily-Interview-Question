@@ -102,6 +102,16 @@
   - [第 97 题：React 和 Vue 的 diff 时间复杂度从 O(n^3) 优化到 O(n) ，那么 O(n^3) 和 O(n) 是如何计算出来的？](#%E7%AC%AC-97-%E9%A2%98react-%E5%92%8C-vue-%E7%9A%84-diff-%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%BB%8E-on%5E3-%E4%BC%98%E5%8C%96%E5%88%B0-on-%E9%82%A3%E4%B9%88-on%5E3-%E5%92%8C-on-%E6%98%AF%E5%A6%82%E4%BD%95%E8%AE%A1%E7%AE%97%E5%87%BA%E6%9D%A5%E7%9A%84)
   - [第 98 题：写出如下代码的打印结果](#%E7%AC%AC-98-%E9%A2%98%E5%86%99%E5%87%BA%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%93%E5%8D%B0%E7%BB%93%E6%9E%9C)
   - [第 99 题：编程算法题](#%E7%AC%AC-99-%E9%A2%98%E7%BC%96%E7%A8%8B%E7%AE%97%E6%B3%95%E9%A2%98)
+  - [第 100 题：请写出如下代码的打印结果](#%E7%AC%AC-100-%E9%A2%98%E8%AF%B7%E5%86%99%E5%87%BA%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%93%E5%8D%B0%E7%BB%93%E6%9E%9C)
+  - [第 101 题：修改以下 print 函数，使之输出 0 到 99，或者 99 到 0](#%E7%AC%AC-101-%E9%A2%98%E4%BF%AE%E6%94%B9%E4%BB%A5%E4%B8%8B-print-%E5%87%BD%E6%95%B0%E4%BD%BF%E4%B9%8B%E8%BE%93%E5%87%BA-0-%E5%88%B0-99%E6%88%96%E8%80%85-99-%E5%88%B0-0)
+  - [第 102 题：不用加减乘除运算符，求整数的7倍](#%E7%AC%AC-102-%E9%A2%98%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E8%BF%90%E7%AE%97%E7%AC%A6%E6%B1%82%E6%95%B4%E6%95%B0%E7%9A%847%E5%80%8D)
+  - [第 103 题：模拟实现一个 localStorage](#%E7%AC%AC-103-%E9%A2%98%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA-localstorage)
+  - [第 104 题：模拟 localStorage 时如何实现过期时间功能](#%E7%AC%AC-104-%E9%A2%98%E6%A8%A1%E6%8B%9F-localstorage-%E6%97%B6%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%E5%8A%9F%E8%83%BD)
+  - [第 105 题：编程题](#%E7%AC%AC-105-%E9%A2%98%E7%BC%96%E7%A8%8B%E9%A2%98)
+  - [第 106 题：分别写出如下代码的返回值](#%E7%AC%AC-106-%E9%A2%98%E5%88%86%E5%88%AB%E5%86%99%E5%87%BA%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC)
+  - [第 107 题：考虑到性能问题，如何快速从一个巨大的数组中随机获取部分元素。](#%E7%AC%AC-107-%E9%A2%98%E8%80%83%E8%99%91%E5%88%B0%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E4%BB%8E%E4%B8%80%E4%B8%AA%E5%B7%A8%E5%A4%A7%E7%9A%84%E6%95%B0%E7%BB%84%E4%B8%AD%E9%9A%8F%E6%9C%BA%E8%8E%B7%E5%8F%96%E9%83%A8%E5%88%86%E5%85%83%E7%B4%A0)
+  - [第 108 题：请写出如下代码的打印结果](#%E7%AC%AC-108-%E9%A2%98%E8%AF%B7%E5%86%99%E5%87%BA%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%93%E5%8D%B0%E7%BB%93%E6%9E%9C)
+  - [第 109 题：扩展题，请写出如下代码的打印结果](#%E7%AC%AC-109-%E9%A2%98%E6%89%A9%E5%B1%95%E9%A2%98%E8%AF%B7%E5%86%99%E5%87%BA%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%93%E5%8D%B0%E7%BB%93%E6%9E%9C)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -1298,6 +1308,199 @@ console.log(webSite.siteUrl);
 公司：bilibili
 
 解析：[第 99 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/153)
+
+<br/>
+
+
+
+### 第 100 题：请写出如下代码的打印结果
+
+> ```js
+> function Foo() {
+> Foo.a = function() {
+>   console.log(1)
+> }
+> this.a = function() {
+>   console.log(2)
+> }
+> }
+> Foo.prototype.a = function() {
+> console.log(3)
+> }
+> Foo.a = function() {
+> console.log(4)
+> }
+> Foo.a();
+> let obj = new Foo();
+> obj.a();
+> Foo.a();
+> ```
+
+
+
+公司：京东
+
+解析：[第 100 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/155)
+
+<br/>
+
+
+
+### 第 101 题：修改以下 print 函数，使之输出 0 到 99，或者 99 到 0
+
+> 要求：
+>
+> 1、只能修改 `setTimeout` 到 `Math.floor(Math.random() * 1000` 的代码
+>
+> 2、不能修改 `Math.floor(Math.random() * 1000`
+>
+> 3、不能使用全局变量
+>
+> ```js
+> function print(n){
+> setTimeout(() => {
+>  console.log(n);
+> }, Math.floor(Math.random() * 1000));
+> }
+> for(var i = 0; i < 100; i++){
+> print(i);
+> }
+> ```
+
+
+
+公司：头条
+
+解析：[第 101 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/158)
+
+<br/>
+
+
+
+### 第 102 题：不用加减乘除运算符，求整数的7倍
+
+解析：[第 102 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/161)
+
+<br/>
+
+
+
+### 第 103 题：模拟实现一个 localStorage
+
+公司：阿里
+
+解析：[第 103 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/166)
+
+<br/>
+
+
+
+### 第 104 题：模拟 localStorage 时如何实现过期时间功能
+
+公司：阿里
+
+解析：[第 104 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/171)
+
+<br/>
+
+
+
+### 第 105 题：编程题
+
+> url有三种情况
+>
+> ```js
+> https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=&local_province_id=33
+> https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=800&local_province_id=33
+> https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=800,700&local_province_id=33
+> ```
+>
+> 匹配elective后的数字输出（写出你认为的最优解法）:
+>
+> ```js
+> [] || ['800'] || ['800','700']
+> ```
+
+
+
+解析：[第 105 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/177)
+
+<br/>
+
+
+
+### 第 106 题：分别写出如下代码的返回值
+
+> ```js
+> String('11') == new String('11');
+> String('11') === new String('11');
+> ```
+
+
+
+公司：京东
+
+解析：[第 106 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/180)
+
+<br/>
+
+
+
+### 第 107 题：考虑到性能问题，如何快速从一个巨大的数组中随机获取部分元素。
+
+> 比如有个数组有100K个元素，从中不重复随机选取10K个元素。
+
+
+
+解析：[第 107 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/187)
+
+<br/>
+
+
+
+### 第 108 题：请写出如下代码的打印结果
+
+> ```js
+> var name = 'Tom';
+> (function() {
+>  if (typeof name == 'undefined') {
+>      var name = 'Jack';
+>      console.log('Goodbye ' + name);
+>  } else {
+>      console.log('Hello ' + name);
+>  }
+> })();
+> ```
+
+
+
+公司：京东
+
+解析：[第 108 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/190)
+
+<br/>
+
+
+
+### 第 109 题：扩展题，请写出如下代码的打印结果
+
+> ```js
+> var name = 'Tom';
+> (function() {
+>  if (typeof name == 'undefined') {
+>      name = 'Jack';
+>      console.log('Goodbye ' + name);
+>  } else {
+>      console.log('Hello ' + name);
+>  }
+> })();
+> ```
+
+
+
+公司：京东
+
+解析：[第 109 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/198)
 
 <br/>
 
