@@ -12,9 +12,9 @@
 
 
 ## 今日面试题
-2019-07-19
+2019-07-23
 
-> 第 109 题：编程题
+> 第 111 题：编程题，写个程序把 entry 转换成如下对象
 >
 > ```js
 > var entry = {
@@ -30,25 +30,18 @@
 >     e: 'ae'
 >   }
 > }
-> 写个程序把entry转换成如下对象
-> var output = {
+> 
+> // 要求转换成如下对象
+>   var output = {
 >   'a.b.c.dd': 'abcdd',
 >   'a.d.xx': 'adxx',
->   'a.e': 'ae'
+> 'a.e': 'ae'
 > }
-> ```
-<br/>
+```
 
-2019-07-22
 
-> 第 110 题：编程题，请写一个函数，完成以下功能
->
-> 输入
-> '1, 2, 3, 5, 7, 8, 10'
-> 输出
-> '1~3, 5, 7~8, 10'
 
-解析：[第 110 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/201)
+解析：[第 111 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/206)
 
 <br/>
 
@@ -56,17 +49,16 @@
 
 
 ## 本周汇总
-2019-07-18
+2019-07-22
 
-> 第 108 题：考虑到性能问题，如何快速从一个巨大的数组中随机获取部分元素。
+> 第 110 题：编程题，请写一个函数，完成以下功能
 >
-> 比如有个数组有100K个元素，从中不重复随机选取10K个元素。
+> 输入
+> ``'1, 2, 3, 5, 7, 8, 10'``
+> 输出
+> ``'1~3, 5, 7~8, 10'``
 
-
-
-解析：[第 107 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/188)
-
-<br/>
+解析：[第 110 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/201)
 
 <br/>
 
