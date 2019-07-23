@@ -37,15 +37,11 @@
 >   'a.d.xx': 'adxx',
 > 'a.e': 'ae'
 > }
-```
-
-
+> ```
 
 解析：[第 111 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/206)
 
 <br/>
-
-
 
 
 ## 本周汇总
