@@ -12,6 +12,61 @@
 
 
 ## 今日面试题
+2019-07-25
+
+> 第 113 题：编程题，根据以下要求，写一个数组去重函数（蘑菇街）
+>
+> 1. 如传入的数组元素为`[123, "meili", "123", "mogu", 123]`，则输出：`[123, "meili", "123", "mogu"]`
+> 
+>   2. 如传入的数组元素为`[123, [1, 2, 3], [1, "2", 3], [1, 2, 3], "meili"]`，则输出：`[123, [1, 2, 3], [1, "2", 3], "meili"]`
+>    
+>    3. 如传入的数组元素为`[123, {a: 1}, {a: {b: 1}}, {a: "1"}, {a: {b: 1}}, "meili"]`，则输出：`[123, {a: 1}, {a: {b: 1}}, {a: "1"}, "meili"]`
+
+
+
+解析：[第 113 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/215)
+
+<br/>
+
+
+
+
+## 本周汇总
+2019-07-24
+
+> 第 112 题：编程题，写个程序把 entry 转换成如下对象（跟昨日题目相反）
+>
+> ```js
+> var entry = {
+>   'a.b.c.dd': 'abcdd',
+>   'a.d.xx': 'adxx',
+>   'a.e': 'ae'
+> }
+> 
+> // 要求转换成如下对象
+> var output = {
+>   a: {
+>    b: {
+>      c: {
+>        dd: 'abcdd'
+>      }
+>    },
+>    d: {
+>      xx: 'adxx'
+>    },
+>    e: 'ae'
+>   }
+> }
+> ```
+
+
+
+解析：[第 112 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/212)
+
+<br/>
+
+
+
 2019-07-23
 
 > 第 111 题：编程题，写个程序把 entry 转换成如下对象
@@ -19,32 +74,34 @@
 > ```js
 > var entry = {
 >   a: {
->     b: {
->       c: {
->         dd: 'abcdd'
->       }
->     },
->     d: {
->       xx: 'adxx'
->     },
->     e: 'ae'
+>    b: {
+>      c: {
+>        dd: 'abcdd'
+>      }
+>    },
+>    d: {
+>      xx: 'adxx'
+>    },
+>    e: 'ae'
 >   }
 > }
 > 
 > // 要求转换成如下对象
->   var output = {
->   'a.b.c.dd': 'abcdd',
->   'a.d.xx': 'adxx',
+> var output = {
+> 'a.b.c.dd': 'abcdd',
+> 'a.d.xx': 'adxx',
 > 'a.e': 'ae'
 > }
 > ```
+
+
 
 解析：[第 111 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/206)
 
 <br/>
 
 
-## 本周汇总
+
 2019-07-22
 
 > 第 110 题：编程题，请写一个函数，完成以下功能
@@ -53,6 +110,8 @@
 > ``'1, 2, 3, 5, 7, 8, 10'``
 > 输出
 > ``'1~3, 5, 7~8, 10'``
+
+
 
 解析：[第 110 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/201)
 
