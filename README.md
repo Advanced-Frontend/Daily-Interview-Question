@@ -4,7 +4,7 @@
 
 工作日每天一道大厂前端面试题，一年后再回头，会感谢曾经努力的自己！
 
-[线上版本阅读更流畅，点击阅读](https://muyiy.vip/question/)
+[线上版本阅读更流畅，点击阅读](https://muyiy.cn/question/)
 
 <br/>
 
