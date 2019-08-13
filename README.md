@@ -12,14 +12,14 @@
 
 
 ## 今日面试题
-2019-08-12
+2019-08-13
 
-> 第 124 题：永久性重定向（301）和临时性重定向（302）对 SEO 有什么影响
+> 第 125 题：如何将`[{id: 1}, {id: 2, pId: 1}, ...]` 的重复数组（有重复数据）转成树形结构的数组 `[{id: 1, child: [{id: 2, pId: 1}]}, ...]` （需要去重）
 >
 
 
 
-解析：[第 124 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/241)
+解析：[第 125题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/243)
 
 <br/>
 
@@ -27,6 +27,14 @@
 
 
 ## 本周汇总
+2019-08-12
+
+> 第 124 题：永久性重定向（301）和临时性重定向（302）对 SEO 有什么影响
+
+
+
+解析：[第 124 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/241)
+
 <br/>
 
 
