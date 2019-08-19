@@ -12,6 +12,21 @@
 
 
 ## 今日面试题
+2019-08-19
+
+> 第 127 题：如何用 css 或 js 实现多行文本溢出省略效果，考虑兼容性
+>
+
+
+
+解析：[第 127 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/246)
+
+<br/>
+
+
+
+
+## 本周汇总
 2019-08-15
 
 > 第 126 题：扑克牌问题
@@ -24,21 +39,19 @@
 
 
 
-解析：[第 126题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/245)
+解析：[第 126 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/245)
 
 <br/>
 
 
 
-
-## 本周汇总
 2019-08-13
 
 > 第 125 题：如何将`[{id: 1}, {id: 2, pId: 1}, ...]` 的重复数组（有重复数据）转成树形结构的数组 `[{id: 1, child: [{id: 2, pId: 1}]}, ...]` （需要去重）
 
 
 
-解析：[第 125题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/243)
+解析：[第 125 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/243)
 
 <br/>
 
