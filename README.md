@@ -12,14 +12,14 @@
 
 
 ## 今日面试题
-2019-08-19
+2019-08-20
 
-> 第 127 题：如何用 css 或 js 实现多行文本溢出省略效果，考虑兼容性
+> 第 128 题：Http 状态码 301 和 302 的应用场景分别是什么
 >
 
 
 
-解析：[第 127 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/246)
+解析：[第 128 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/249)
 
 <br/>
 
@@ -27,6 +27,16 @@
 
 
 ## 本周汇总
+2019-08-19
+
+> 第 127 题：如何用 css 或 js 实现多行文本溢出省略效果，考虑兼容性
+
+
+
+解析：[第 127 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/246)
+
+
+
 2019-08-15
 
 > 第 126 题：扑克牌问题
