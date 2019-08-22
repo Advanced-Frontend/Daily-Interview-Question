@@ -12,10 +12,43 @@
 
 
 ## 今日面试题
+2019-08-22
+
+> 第 129 题：输出以下代码执行结果
+>
+> ```js
+> function wait() {
+>   return new Promise(resolve =>
+>   	setTimeout(resolve, 10 * 1000)
+>   )
+> }
+> 
+> async function main() {
+>   console.time();
+>   const x = wait();
+>   const y = wait();
+>   const z = wait();
+>   await x;
+>   await y;
+>   await z;
+>   console.timeEnd();
+> }
+> main();
+> ```
+
+
+
+解析：[第 129 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/251)
+
+<br/>
+
+
+
+
+## 本周汇总
 2019-08-20
 
 > 第 128 题：Http 状态码 301 和 302 的应用场景分别是什么
->
 
 
 
@@ -25,8 +58,6 @@
 
 
 
-
-## 本周汇总
 2019-08-19
 
 > 第 127 题：如何用 css 或 js 实现多行文本溢出省略效果，考虑兼容性
