@@ -12,6 +12,37 @@
 
 
 ## 今日面试题
+2019-08-23
+
+> 第 130 题：输出以下代码执行结果，大致时间就好（不同于上题）
+>
+> ```js
+> function wait() {
+>     return new Promise(resolve =>
+>       setTimeout(resolve, 10 * 1000)
+>     )
+> }
+> 
+> async function main() {
+>     console.time();
+>     await wait();
+>     await wait();
+>     await wait();
+>     console.timeEnd();
+>   }
+>   main();
+>   ```
+
+
+
+解析：[第 130 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/253)
+
+<br/>
+
+
+
+
+## 本周汇总
 2019-08-22
 
 > 第 129 题：输出以下代码执行结果
@@ -19,7 +50,7 @@
 > ```js
 > function wait() {
 >   return new Promise(resolve =>
->   	setTimeout(resolve, 10 * 1000)
+>     setTimeout(resolve, 10 * 1000)
 >   )
 > }
 > 
@@ -44,8 +75,6 @@
 
 
 
-
-## 本周汇总
 2019-08-20
 
 > 第 128 题：Http 状态码 301 和 302 的应用场景分别是什么
