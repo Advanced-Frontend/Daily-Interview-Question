@@ -12,26 +12,41 @@
 
 
 ## 今日面试题
+2019-08-26
+
+> 第 131 题：接口如何防刷
+>
+
+
+
+解析：[第 131 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/254)
+
+<br/>
+
+
+
+
+## 本周汇总
 2019-08-23
 
 > 第 130 题：输出以下代码执行结果，大致时间就好（不同于上题）
 >
 > ```js
 > function wait() {
->     return new Promise(resolve =>
->       setTimeout(resolve, 10 * 1000)
->     )
+>   return new Promise(resolve =>
+>     setTimeout(resolve, 10 * 1000)
+>   )
 > }
 > 
 > async function main() {
->     console.time();
->     await wait();
->     await wait();
->     await wait();
->     console.timeEnd();
->   }
->   main();
->   ```
+>   console.time();
+>   await wait();
+>   await wait();
+>   await wait();
+>   console.timeEnd();
+> }
+> main();
+> ```
 
 
 
@@ -41,8 +56,6 @@
 
 
 
-
-## 本周汇总
 2019-08-22
 
 > 第 129 题：输出以下代码执行结果
