@@ -12,10 +12,24 @@
 
 
 ## 今日面试题
+2019-08-29
+
+> 第 133 题：用 setTimeout 实现 setInterval，阐述实现的效果与 setInterval 的差异
+>
+
+
+
+解析：[第 133 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/259)
+
+<br/>
+
+
+
+
+## 本周汇总
 2019-08-27
 
 > 第 132 题：实现一个 Dialog 类，Dialog可以创建 dialog 对话框，对话框支持可拖拽（腾讯）
->
 
 
 
@@ -25,8 +39,6 @@
 
 
 
-
-## 本周汇总
 2019-08-26
 
 > 第 131 题：接口如何防刷
