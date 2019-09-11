@@ -122,6 +122,23 @@
   - [第 117 题：介绍下 http1.0、1.1、2.0 协议的区别？](#%E7%AC%AC-117-%E9%A2%98%E4%BB%8B%E7%BB%8D%E4%B8%8B-http101120-%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%8C%BA%E5%88%AB)
   - [第 118 题：vue 渲染大量数据时应该怎么优化？](#%E7%AC%AC-118-%E9%A2%98vue-%E6%B8%B2%E6%9F%93%E5%A4%A7%E9%87%8F%E6%95%B0%E6%8D%AE%E6%97%B6%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E4%BC%98%E5%8C%96)
   - [第 119 题：vue 如何优化首页的加载速度？vue 首页白屏是什么问题引起的？如何解决呢？](#%E7%AC%AC-119-%E9%A2%98vue-%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E9%A6%96%E9%A1%B5%E7%9A%84%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6vue-%E9%A6%96%E9%A1%B5%E7%99%BD%E5%B1%8F%E6%98%AF%E4%BB%80%E4%B9%88%E9%97%AE%E9%A2%98%E5%BC%95%E8%B5%B7%E7%9A%84%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%91%A2)
+  - [第 120 题：为什么 for 循环嵌套顺序会影响性能？](#%E7%AC%AC-120-%E9%A2%98%E4%B8%BA%E4%BB%80%E4%B9%88-for-%E5%BE%AA%E7%8E%AF%E5%B5%8C%E5%A5%97%E9%A1%BA%E5%BA%8F%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%80%A7%E8%83%BD)
+  - [第 121 题：统计 1 ~ n 整数中出现 1 的次数。](#%E7%AC%AC-121-%E9%A2%98%E7%BB%9F%E8%AE%A1-1--n-%E6%95%B4%E6%95%B0%E4%B8%AD%E5%87%BA%E7%8E%B0-1-%E7%9A%84%E6%AC%A1%E6%95%B0)
+  - [第 122 题：webpack 打包 vue 速度太慢怎么办？](#%E7%AC%AC-122-%E9%A2%98webpack-%E6%89%93%E5%8C%85-vue-%E9%80%9F%E5%BA%A6%E5%A4%AA%E6%85%A2%E6%80%8E%E4%B9%88%E5%8A%9E)
+  - [第 123 题：vue 是如何对数组方法进行变异的？例如 push、pop、splice 等方法](#%E7%AC%AC-123-%E9%A2%98vue-%E6%98%AF%E5%A6%82%E4%BD%95%E5%AF%B9%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95%E8%BF%9B%E8%A1%8C%E5%8F%98%E5%BC%82%E7%9A%84%E4%BE%8B%E5%A6%82-pushpopsplice-%E7%AD%89%E6%96%B9%E6%B3%95)
+  - [第 124 题：永久性重定向（301）和临时性重定向（302）对 SEO 有什么影响](#%E7%AC%AC-124-%E9%A2%98%E6%B0%B8%E4%B9%85%E6%80%A7%E9%87%8D%E5%AE%9A%E5%90%91301%E5%92%8C%E4%B8%B4%E6%97%B6%E6%80%A7%E9%87%8D%E5%AE%9A%E5%90%91302%E5%AF%B9-seo-%E6%9C%89%E4%BB%80%E4%B9%88%E5%BD%B1%E5%93%8D)
+  - [第 125 题：算法题](#%E7%AC%AC-125-%E9%A2%98%E7%AE%97%E6%B3%95%E9%A2%98)
+  - [第 126 题：扑克牌问题](#%E7%AC%AC-126-%E9%A2%98%E6%89%91%E5%85%8B%E7%89%8C%E9%97%AE%E9%A2%98)
+  - [第 127 题：如何用 css 或 js 实现多行文本溢出省略效果，考虑兼容性](#%E7%AC%AC-127-%E9%A2%98%E5%A6%82%E4%BD%95%E7%94%A8-css-%E6%88%96-js-%E5%AE%9E%E7%8E%B0%E5%A4%9A%E8%A1%8C%E6%96%87%E6%9C%AC%E6%BA%A2%E5%87%BA%E7%9C%81%E7%95%A5%E6%95%88%E6%9E%9C%E8%80%83%E8%99%91%E5%85%BC%E5%AE%B9%E6%80%A7)
+  - [第 128 题：Http 状态码 301 和 302 的应用场景分别是什么](#%E7%AC%AC-128-%E9%A2%98http-%E7%8A%B6%E6%80%81%E7%A0%81-301-%E5%92%8C-302-%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E5%88%86%E5%88%AB%E6%98%AF%E4%BB%80%E4%B9%88)
+  - [第 129 题：输出以下代码执行结果](#%E7%AC%AC-129-%E9%A2%98%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C)
+  - [第 130 题：输出以下代码执行结果，大致时间就好（不同于上题）](#%E7%AC%AC-130-%E9%A2%98%E8%BE%93%E5%87%BA%E4%BB%A5%E4%B8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C%E5%A4%A7%E8%87%B4%E6%97%B6%E9%97%B4%E5%B0%B1%E5%A5%BD%E4%B8%8D%E5%90%8C%E4%BA%8E%E4%B8%8A%E9%A2%98)
+  - [第 131 题：接口如何防刷](#%E7%AC%AC-131-%E9%A2%98%E6%8E%A5%E5%8F%A3%E5%A6%82%E4%BD%95%E9%98%B2%E5%88%B7)
+  - [第 132 题：实现一个 Dialog 类，Dialog可以创建 dialog 对话框，对话框支持可拖拽（腾讯）](#%E7%AC%AC-132-%E9%A2%98%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA-dialog-%E7%B1%BBdialog%E5%8F%AF%E4%BB%A5%E5%88%9B%E5%BB%BA-dialog-%E5%AF%B9%E8%AF%9D%E6%A1%86%E5%AF%B9%E8%AF%9D%E6%A1%86%E6%94%AF%E6%8C%81%E5%8F%AF%E6%8B%96%E6%8B%BD%E8%85%BE%E8%AE%AF)
+  - [第 133 题：用 setTimeout 实现 setInterval，阐述实现的效果与 setInterval 的差异](#%E7%AC%AC-133-%E9%A2%98%E7%94%A8-settimeout-%E5%AE%9E%E7%8E%B0-setinterval%E9%98%90%E8%BF%B0%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%95%88%E6%9E%9C%E4%B8%8E-setinterval-%E7%9A%84%E5%B7%AE%E5%BC%82)
+  - [第 134 题：求两个日期中间的有效日期](#%E7%AC%AC-134-%E9%A2%98%E6%B1%82%E4%B8%A4%E4%B8%AA%E6%97%A5%E6%9C%9F%E4%B8%AD%E9%97%B4%E7%9A%84%E6%9C%89%E6%95%88%E6%97%A5%E6%9C%9F)
+  - [第 135 题：算法题（盛大）](#%E7%AC%AC-135-%E9%A2%98%E7%AE%97%E6%B3%95%E9%A2%98%E7%9B%9B%E5%A4%A7)
+  - [第 136 题：如何实现骨架屏，说说你的思路](#%E7%AC%AC-136-%E9%A2%98%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E9%AA%A8%E6%9E%B6%E5%B1%8F%E8%AF%B4%E8%AF%B4%E4%BD%A0%E7%9A%84%E6%80%9D%E8%B7%AF)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -1746,3 +1763,183 @@ console.log('two time', t3 - t2)
 
 <br/>
 
+
+
+### 第 124 题：永久性重定向（301）和临时性重定向（302）对 SEO 有什么影响
+
+
+
+解析：[第 124 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/241)
+
+<br/>
+
+
+
+### 第 125 题：算法题
+
+如何将`[{id: 1}, {id: 2, pId: 1}, ...]` 的重复数组（有重复数据）转成树形结构的数组 `[{id: 1, child: [{id: 2, pId: 1}]}, ...]` （需要去重）
+
+
+
+解析：[第 125 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/243)
+
+<br/>
+
+
+
+### 第 126 题：扑克牌问题
+
+> 有一堆扑克牌，将牌堆第一张放到桌子上，再将接下来的牌堆的第一张放到牌底，如此往复；
+>
+> 最后桌子上的牌顺序为： (牌底) 1,2,3,4,5,6,7,8,9,10,11,12,13 (牌顶)；
+>
+> 问：原来那堆牌的顺序，用函数实现。
+
+
+
+解析：[第 126 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/245)
+
+<br/>
+
+
+
+### 第 127 题：如何用 css 或 js 实现多行文本溢出省略效果，考虑兼容性
+
+
+
+解析：[第 127 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/246)
+
+<br/>
+
+
+
+### 第 128 题：Http 状态码 301 和 302 的应用场景分别是什么
+
+
+
+解析：[第 128 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/249)
+
+<br/>
+
+
+
+### 第 129 题：输出以下代码执行结果
+
+> ```js
+> function wait() {
+> return new Promise(resolve =>
+>  setTimeout(resolve, 10 * 1000)
+> )
+> }
+> 
+> async function main() {
+> console.time();
+> const x = wait();
+> const y = wait();
+> const z = wait();
+> await x;
+> await y;
+> await z;
+> console.timeEnd();
+> }
+> main();
+> ```
+
+
+
+解析：[第 129 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/251)
+
+<br/>
+
+
+
+### 第 130 题：输出以下代码执行结果，大致时间就好（不同于上题）
+
+> ```js
+> function wait() {
+> return new Promise(resolve =>
+>  setTimeout(resolve, 10 * 1000)
+> )
+> }
+> 
+> async function main() {
+> console.time();
+> await wait();
+> await wait();
+> await wait();
+> console.timeEnd();
+> }
+> main();
+> ```
+
+
+
+解析：[第 130 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/253)
+
+<br/>
+
+
+
+### 第 131 题：接口如何防刷
+
+
+
+解析：[第 131 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/254)
+
+<br/>
+
+
+
+### 第 132 题：实现一个 Dialog 类，Dialog可以创建 dialog 对话框，对话框支持可拖拽（腾讯）
+
+
+
+解析：[第 132 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/257)
+
+<br/>
+
+
+
+### 第 133 题：用 setTimeout 实现 setInterval，阐述实现的效果与 setInterval 的差异
+
+
+
+解析：[第 133 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/259)
+
+<br/>
+
+
+
+### 第 134 题：求两个日期中间的有效日期
+
+> 如 2015-2-8 到 2015-3-3，返回【2015-2-8 2015-2-9...】
+
+
+
+解析：[第 134 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/264)
+
+<br/>
+
+
+
+### 第 135 题：算法题（盛大）
+
+> 在一个字符串数组中有红、黄、蓝三种颜色的球，且个数不相等、顺序不一致，请为该数组排序。使得排序后数组中球的顺序为:黄、红、蓝。
+>
+> 例如：红蓝蓝黄红黄蓝红红黄红，排序后为：黄黄黄红红红红红蓝蓝蓝。
+
+
+
+解析：[第 135 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/266)
+
+<br/>
+
+
+
+### 第 136 题：如何实现骨架屏，说说你的思路
+
+
+
+解析：[第 136 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/270)
+
+<br/>

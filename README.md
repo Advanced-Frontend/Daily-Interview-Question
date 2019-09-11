@@ -12,14 +12,14 @@
 
 
 ## 今日面试题
-2019-09-04
+2019-09-11
 
-> 第 137 题：如何在 H5 和小程序项目中计算白屏时间和首屏时间，说说你的思路
+> 第 138 题：反转链表，每 k 个节点反转一次，不足 k 就保持原有顺序（哔哩哔哩）
 >
 
 
 
-解析：[第 137 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/272)
+解析：[第 138 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/278)
 
 <br/>
 
@@ -27,206 +27,17 @@
 
 
 ## 本周汇总
-2019-09-03
 
-> 第 136 题：如何实现骨架屏，说说你的思路
+2019-09-04
 
-
-
-解析：[第 136 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/270)
-
-<br/>
+> 第 137 题：如何在 H5 和小程序项目中计算白屏时间和首屏时间，说说你的思路
 
 
 
-2019-09-02
-
-> 第 135 题：算法题（盛大）
->
-> 在一个字符串数组中有红、黄、蓝三种颜色的球，且个数不相等、顺序不一致，请为该数组排序。使得排序后数组中球的顺序为:黄、红、蓝。
->
-> 例如：红蓝蓝黄红黄蓝红红黄红，排序后为：黄黄黄红红红红红蓝蓝蓝。
-
-
-
-解析：[第 135 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/266)
+解析：[第 137 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/272)
 
 <br/>
 
-
-
-2019-08-30
-
-> 第 134 题：求两个日期中间的有效日期
->
-> 如 2015-2-8 到 2015-3-3，返回【2015-2-8 2015-2-9...】
-
-
-
-解析：[第 134 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/264)
-
-<br/>
-
-
-
-2019-08-29
-
-> 第 133 题：用 setTimeout 实现 setInterval，阐述实现的效果与 setInterval 的差异
-
-
-
-解析：[第 133 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/259)
-
-<br/>
-
-
-
-2019-08-27
-
-> 第 132 题：实现一个 Dialog 类，Dialog可以创建 dialog 对话框，对话框支持可拖拽（腾讯）
-
-
-
-解析：[第 132 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/257)
-
-<br/>
-
-
-
-2019-08-26
-
-> 第 131 题：接口如何防刷
-
-
-
-解析：[第 131 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/254)
-
-<br/>
-
-
-
-2019-08-23
-
-> 第 130 题：输出以下代码执行结果，大致时间就好（不同于上题）
->
-> ```js
-> function wait() {
->   return new Promise(resolve =>
->     setTimeout(resolve, 10 * 1000)
->   )
-> }
-> 
-> async function main() {
->   console.time();
->   await wait();
->   await wait();
->   await wait();
->   console.timeEnd();
-> }
-> main();
-> ```
-
-
-
-解析：[第 130 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/253)
-
-<br/>
-
-
-
-2019-08-22
-
-> 第 129 题：输出以下代码执行结果
->
-> ```js
-> function wait() {
->   return new Promise(resolve =>
->     setTimeout(resolve, 10 * 1000)
->   )
-> }
-> 
-> async function main() {
->   console.time();
->   const x = wait();
->   const y = wait();
->   const z = wait();
->   await x;
->   await y;
->   await z;
->   console.timeEnd();
-> }
-> main();
-> ```
-
-
-
-解析：[第 129 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/251)
-
-<br/>
-
-
-
-2019-08-20
-
-> 第 128 题：Http 状态码 301 和 302 的应用场景分别是什么
-
-
-
-解析：[第 128 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/249)
-
-<br/>
-
-
-
-2019-08-19
-
-> 第 127 题：如何用 css 或 js 实现多行文本溢出省略效果，考虑兼容性
-
-
-
-解析：[第 127 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/246)
-
-
-
-2019-08-15
-
-> 第 126 题：扑克牌问题
->
-> 有一堆扑克牌，将牌堆第一张放到桌子上，再将接下来的牌堆的第一张放到牌底，如此往复；
->
-> 最后桌子上的牌顺序为： (牌底) 1,2,3,4,5,6,7,8,9,10,11,12,13 (牌顶)；
->
-> 问：原来那堆牌的顺序，用函数实现。
-
-
-
-解析：[第 126 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/245)
-
-<br/>
-
-
-
-2019-08-13
-
-> 第 125 题：如何将`[{id: 1}, {id: 2, pId: 1}, ...]` 的重复数组（有重复数据）转成树形结构的数组 `[{id: 1, child: [{id: 2, pId: 1}]}, ...]` （需要去重）
-
-
-
-解析：[第 125 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/243)
-
-<br/>
-
-
-
-2019-08-12
-
-> 第 124 题：永久性重定向（301）和临时性重定向（302）对 SEO 有什么影响
-
-
-
-解析：[第 124 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/241)
-
-<br/>
 
 
 
