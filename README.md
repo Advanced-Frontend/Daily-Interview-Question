@@ -12,6 +12,18 @@
 
 
 ## 今日面试题
+2019-09-17
+
+> 第 139 题：谈一谈 nextTick 的原理
+
+
+
+解析：[第 139 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/281)
+
+<br/>
+
+
+
 2019-09-11
 
 > 第 138 题：反转链表，每 k 个节点反转一次，不足 k 就保持原有顺序（哔哩哔哩）
