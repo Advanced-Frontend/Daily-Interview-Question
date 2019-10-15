@@ -12,6 +12,21 @@
 
 
 ## 今日面试题
+2019-10-15
+
+> 第 141 题：Vue 中的 computed 是如何实现的（腾讯、平安）
+
+
+
+解析：[第 141 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/291)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-10-14
 
 > 第 140 题：为什么 HTTP1.1 不能实现多路复用（腾讯）
@@ -23,9 +38,6 @@
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-09-17
 
