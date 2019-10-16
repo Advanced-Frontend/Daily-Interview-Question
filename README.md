@@ -12,6 +12,21 @@
 
 
 ## 今日面试题
+2019-10-16
+
+> 第 142 题：将'10000000000'形式的字符串，以每3位进行分隔展示'10.000.000.000'(百度)
+
+
+
+解析：[第 142 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/294)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-10-15
 
 > 第 141 题：Vue 中的 computed 是如何实现的（腾讯、平安）
@@ -21,11 +36,6 @@
 解析：[第 141 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/291)
 
 <br/>
-
-
-
-
-## 本周汇总
 
 2019-10-14
 
