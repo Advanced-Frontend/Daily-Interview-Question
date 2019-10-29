@@ -12,6 +12,21 @@
 
 
 ## 今日面试题
+2019-10-29
+
+第 146 题：Vue 中的 computed 和 watch 的区别在哪里（虾皮）
+
+
+
+解析：[第 146 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/304)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-10-24
 
 第 145 题：前端项目如何找出性能瓶颈（阿里）
@@ -23,9 +38,6 @@
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-10-22
 
