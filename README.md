@@ -12,6 +12,21 @@
 
 
 ## 今日面试题
+2019-10-31
+
+第 147 题：v-if、v-show、v-html 的原理是什么，它是如何封装的？
+
+
+
+解析：[第 147 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/307)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-10-29
 
 第 146 题：Vue 中的 computed 和 watch 的区别在哪里（虾皮）
@@ -23,9 +38,6 @@
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-10-24
 
