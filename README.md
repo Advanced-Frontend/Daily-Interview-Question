@@ -12,6 +12,23 @@
 
 
 ## 今日面试题
+
+
+2019-11-12
+
+第 147 题：babel 怎么把字符串解析成 AST，怎么进行词法/语法分析的？
+
+
+
+解析：[第 147 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/304)
+
+<br/>
+
+
+
+
+## 本周汇总
+
 2019-10-29
 
 第 146 题：Vue 中的 computed 和 watch 的区别在哪里（虾皮）
@@ -23,9 +40,6 @@
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-10-24
 
