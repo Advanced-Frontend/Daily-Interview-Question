@@ -6,6 +6,16 @@
 
 [线上版本阅读更流畅，点击阅读](https://muyiy.cn/question/)
 
+
+
+<br/>
+
+推荐使用微信小程序，上下班路上刷一点，半年突击进大厂
+
+
+
+<img src="http://resource.muyiy.cn/image/20200106214930.jpg" height="300px">
+
 <br/>
 
 
