@@ -237,4 +237,4 @@
 
 我是木易杨，公众号「高级前端进阶」作者，跟着我**每周重点攻克一个前端面试重难点**。接下来让我带你走进高级前端的世界，在进阶的路上，共勉！
 
-![image](https://github.com/yygmind/blog/raw/master/images/weixin_re.png)
+![image](http://resource.muyiy.cn/image/20200123162151.png)
