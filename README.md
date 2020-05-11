@@ -1,6 +1,6 @@
 # Daily-Interview-Question
 
-加入前端「壹题」学习小组，尽在公众号「高级前端进阶」，进阶共勉之！
+加入「前端面试互助群」学习小组，搜索公众号「高级前端进阶」，关注即可加入！
 
 工作日每天一道大厂前端面试题，一年后再回头，会感谢曾经努力的自己！
 
@@ -10,11 +10,13 @@
 
 <br/>
 
-推荐使用微信小程序，上下班路上刷一点，半年突击进大厂
+推荐扫码使用微信小程序，除了本项目之外，还囊括了算法题、选择题等多种类型题目和详细解析
+
+记住我们的 Slogan：上下班路上刷一点，半年突击进大厂
 
 
 
-<img src="http://resource.muyiy.cn/image/20200106214930.jpg" height="300px">
+<img src="http://resource.muyiy.cn/image/20200106214930.jpg" height="250px">
 
 <br/>
 
@@ -22,6 +24,39 @@
 
 
 ## 今日面试题
+
+第 153 题：实现一个批量请求函数 multiRequest(urls, maxNum)
+
+ 要求如下：
+
+1. 要求最大并发数 maxNum
+
+2. 每当有一个请求返回，就留下一个空位，可以增加新的请求
+3. 所有请求完成后，结果按照 urls 里面的顺序依次打出
+
+
+
+解析：[第 153 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/378)
+
+<br/>
+
+
+
+## 最近汇总
+
+2019-12-31
+
+> 第 152 题：实现一个 normalize 函数，能将输入的特定的字符串转化为特定的结构化数据
+
+
+
+解析：[第 152 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/331)
+
+<br/>
+
+
+
+
 2019-11-25
 
 > 第 151 题：用最简洁代码实现 indexOf 方法
@@ -32,12 +67,6 @@
 解析：[第 151 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/321)
 
 <br/>
-
-
-
-
-## 本周汇总
-
 
 
 2019-11-21
