@@ -31,6 +31,47 @@
 
 ## 今日面试题
 
+第 156 题：求最终 left、right 的宽度
+
+```js
+<div class="container">
+    <div class="left"></div>
+    <div class="right"></div>
+</div>
+
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    width: 600px;
+    height: 300px;
+    display: flex;
+  }
+  .left {
+    flex: 1 2 300px;
+    background: red;
+  }
+  .right {
+    flex: 2 1 200px;
+    background: blue;
+  }
+</style>
+```
+
+注：此题和 155 题 left、right 样式有些不同
+
+
+
+解析：[第 156 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/382)
+
+<br/>
+
+
+
+## 最近汇总
+
 第 155 题：求最终 left、right 的宽度
 
 ```js
@@ -67,8 +108,6 @@
 <br/>
 
 
-
-## 最近汇总
 
 第 154 题：弹性盒子中 flex: 0 1 auto 表示什么意思
 
