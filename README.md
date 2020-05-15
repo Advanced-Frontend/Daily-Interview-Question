@@ -31,6 +31,18 @@
 
 ## 今日面试题
 
+第 157 题：浏览器缓存 ETag 里的值是怎么生成的
+
+
+
+解析：[第 157 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/383)
+
+<br/>
+
+
+
+## 最近汇总
+
 第 156 题：求最终 left、right 的宽度
 
 ```js
@@ -70,8 +82,6 @@
 
 
 
-## 最近汇总
-
 第 155 题：求最终 left、right 的宽度
 
 ```js
@@ -110,8 +120,6 @@
 
 
 第 154 题：弹性盒子中 flex: 0 1 auto 表示什么意思
-
-
 
 解析：[第 154 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/380)
 
