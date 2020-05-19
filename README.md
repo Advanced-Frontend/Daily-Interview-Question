@@ -31,17 +31,25 @@
 
 ## 今日面试题
 
-第 157 题：浏览器缓存 ETag 里的值是怎么生成的
+第 158 题：如何模拟实现 Array.prototype.splice
 
 
 
-解析：[第 157 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/383)
+解析：[第 158 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/384)
 
 <br/>
 
 
 
 ## 最近汇总
+
+第 157 题：浏览器缓存 ETag 里的值是怎么生成的
+
+解析：[第 157 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/383)
+
+<br/>
+
+
 
 第 156 题：求最终 left、right 的宽度
 
