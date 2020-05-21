@@ -31,6 +31,18 @@
 
 ## 今日面试题
 
+第 159 题：实现 `Promise.retry`，成功后 `resolve` 结果，失败后重试，尝试超过一定次数才真正的 `reject`
+
+
+
+解析：[第 159 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/387)
+
+<br/>
+
+
+
+## 最近汇总
+
 第 158 题：如何模拟实现 Array.prototype.splice
 
 
@@ -40,8 +52,6 @@
 <br/>
 
 
-
-## 最近汇总
 
 第 157 题：浏览器缓存 ETag 里的值是怎么生成的
 
