@@ -31,6 +31,37 @@
 
 ## 今日面试题
 
+第 160 题：输出以下代码运行结果，为什么？如果希望每隔 1s 输出一个结果，应该如何改造？注意不可改动 square 方法
+
+```js
+const list = [1, 2, 3]
+const square = num => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(num * num)
+    }, 1000)
+  })
+}
+
+function test() {
+  list.forEach(async x=> {
+    const res = await square(x)
+    console.log(res)
+  })
+}
+test()
+```
+
+
+
+解析：[第 160 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/389)
+
+<br/>
+
+
+
+## 最近汇总
+
 第 159 题：实现 `Promise.retry`，成功后 `resolve` 结果，失败后重试，尝试超过一定次数才真正的 `reject`
 
 
@@ -40,8 +71,6 @@
 <br/>
 
 
-
-## 最近汇总
 
 第 158 题：如何模拟实现 Array.prototype.splice
 
