@@ -31,6 +31,35 @@
 
 ## 今日面试题
 
+第 162 题：实现对象的 Map 函数类似 Array.prototype.map
+
+解析：[第 162 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/431)
+
+<br/>
+
+
+
+
+## 最近汇总
+
+第 161 题：用最精炼的代码实现数组非零非负最小值 index 
+
+```js
+// 例如：[10,21,0,-7,35,7,9,23,18] 输出 5, 7 最小
+function getIndex(arr){
+      let index=null;
+      ...
+      return index;
+}
+```
+
+
+解析：[第 161 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/421)
+
+<br/>
+
+
+
 第 160 题：输出以下代码运行结果，为什么？如果希望每隔 1s 输出一个结果，应该如何改造？注意不可改动 square 方法
 
 ```js
@@ -59,8 +88,6 @@ test()
 <br/>
 
 
-
-## 最近汇总
 
 第 159 题：实现 `Promise.retry`，成功后 `resolve` 结果，失败后重试，尝试超过一定次数才真正的 `reject`
 
